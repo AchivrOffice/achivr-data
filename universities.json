@@ -1,0 +1,1417 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-14",
+    "totalCountries": 26,
+    "totalUniversities": 100
+  },
+  "countries": {
+    "IE": {
+      "name": "Irska",
+      "mapPosition": { "x": 4.9, "y": 60.6 },
+      "flagCode": "ie",
+      "universities": [
+        {
+          "name": "Trinity College Dublin",
+          "website": "tcd.ie",
+          "url": "https://www.tcd.ie",
+          "programs": "Svi programi",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najprestižniji irski univerzitet, osnovan 1592.",
+          "popularPrograms": ["CS", "Pravo", "Medicina"]
+        },
+        {
+          "name": "UCD Dublin",
+          "website": "ucd.ie",
+          "url": "https://www.ucd.ie",
+          "programs": "Svi programi",
+          "ranking": "#126 u svetu",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najveći univerzitet u Irskoj.",
+          "popularPrograms": ["Biznis", "Veterina", "Arhitektura"]
+        }
+      ]
+    },
+    "GB": {
+      "name": "Velika Britanija",
+      "mapPosition": { "x": 16.4, "y": 62.2 },
+      "flagCode": "gb",
+      "universities": [
+        {
+          "name": "University of Oxford",
+          "website": "ox.ac.uk",
+          "url": "https://www.ox.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "#3 u svetu",
+          "scores": {
+            "toefl": { "min": 110, "recommended": 120 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.5", "recommended": "8.0" }
+          },
+          "description": "Najstariji univerzitet u anglofonom svetu. 121 Nobelovaca.",
+          "popularPrograms": ["PPE", "Pravo", "Medicina", "CS"]
+        },
+        {
+          "name": "University of Cambridge",
+          "website": "cam.ac.uk",
+          "url": "https://www.cam.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "#5 u svetu",
+          "scores": {
+            "toefl": { "min": 110, "recommended": 120 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.5", "recommended": "8.0" }
+          },
+          "description": "Vodeći svetski univerzitet za nauku. 31 koledž.",
+          "popularPrograms": ["Nauka", "Inženjering", "Matematika"]
+        },
+        {
+          "name": "Imperial College London",
+          "website": "imperial.ac.uk",
+          "url": "https://www.imperial.ac.uk",
+          "programs": "STEM",
+          "ranking": "#9 u svetu",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Specijalizovan za nauku i inženjering.",
+          "popularPrograms": ["Inženjering", "CS", "Medicina"]
+        },
+        {
+          "name": "UCL",
+          "website": "ucl.ac.uk",
+          "url": "https://www.ucl.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "Top 50 u svetu",
+          "scores": {
+            "toefl": { "min": 96, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Univerzitet u centru Londona. 12 Nobelovaca.",
+          "popularPrograms": ["Arhitektura", "Pravo", "Medicina"]
+        },
+        {
+          "name": "University of Edinburgh",
+          "website": "ed.ac.uk",
+          "url": "https://www.ed.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "Top 50 u svetu",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Vodeći škotski univerzitet.",
+          "popularPrograms": ["AI", "Medicina", "Pravo"]
+        },
+        {
+          "name": "University of Manchester",
+          "website": "manchester.ac.uk",
+          "url": "https://www.manchester.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "Top 50 u svetu",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Jedno od najvećih istraživačkih središta.",
+          "popularPrograms": ["Fizika", "Inženjering", "Biznis"]
+        },
+        {
+          "name": "King's College London",
+          "website": "kcl.ac.uk",
+          "url": "https://www.kcl.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "Top 50 u svetu",
+          "scores": {
+            "toefl": { "min": 96, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Prestižni londonski univerzitet.",
+          "popularPrograms": ["Pravo", "Medicina", "Humanities"]
+        },
+        {
+          "name": "LSE",
+          "website": "lse.ac.uk",
+          "url": "https://www.lse.ac.uk",
+          "programs": "Društvene nauke",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 107, "recommended": 115 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Vodeća institucija za ekonomiju. 60% međunarodnih studenata.",
+          "popularPrograms": ["Ekonomija", "Finansije", "IR"]
+        },
+        {
+          "name": "University of Bristol",
+          "website": "bristol.ac.uk",
+          "url": "https://www.bristol.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Russell Group član. Pionir rodne ravnopravnosti (1876).",
+          "popularPrograms": ["Inženjering", "Pravo", "Medicina"]
+        },
+        {
+          "name": "University of Warwick",
+          "website": "warwick.ac.uk",
+          "url": "https://warwick.ac.uk",
+          "programs": "Biznis",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 92, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Poznata biznis škola (WBS). 29,000 studenata.",
+          "popularPrograms": ["WBS", "Ekonomija", "Matematika"]
+        },
+        {
+          "name": "Durham University",
+          "website": "durham.ac.uk",
+          "url": "https://www.durham.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 92, "recommended": 102 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Konzistentno u Top 10 UK. Koledž sistem.",
+          "popularPrograms": ["Pravo", "Istorija", "Fizika"]
+        },
+        {
+          "name": "University of Glasgow",
+          "website": "gla.ac.uk",
+          "url": "https://www.gla.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Osnovan 1451. Četvrti najstariji u UK.",
+          "popularPrograms": ["Medicina", "Pravo", "Inženjering"]
+        }
+      ]
+    },
+    "NO": {
+      "name": "Norveška",
+      "mapPosition": { "x": 35.6, "y": 36.9 },
+      "flagCode": "no",
+      "universities": [
+        {
+          "name": "University of Oslo",
+          "website": "uio.no",
+          "url": "https://www.uio.no",
+          "programs": "Istraživanje",
+          "ranking": "#1 u Norveškoj",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najveći u Norveškoj. Bez školarine!",
+          "popularPrograms": ["Pravo", "Medicina", "Društvene nauke"]
+        },
+        {
+          "name": "NTNU Trondheim",
+          "website": "ntnu.edu",
+          "url": "https://www.ntnu.edu",
+          "programs": "Inženjering",
+          "ranking": "#2 u Norveškoj",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vodeći za inženjering u Norveškoj.",
+          "popularPrograms": ["Inženjering", "IT", "Arhitektura"]
+        }
+      ]
+    },
+    "SE": {
+      "name": "Švedska",
+      "mapPosition": { "x": 44.7, "y": 42.1 },
+      "flagCode": "se",
+      "universities": [
+        {
+          "name": "KTH Royal Institute",
+          "website": "kth.se",
+          "url": "https://www.kth.se",
+          "programs": "Inženjering",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vodeći tehnički univerzitet u Skandinaviji.",
+          "popularPrograms": ["Inženjering", "IT", "Biotehnologija"]
+        },
+        {
+          "name": "Lund University",
+          "website": "lunduniversity.lu.se",
+          "url": "https://www.lunduniversity.lu.se",
+          "programs": "Svi programi",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najprestižniji u Skandinaviji.",
+          "popularPrograms": ["Medicina", "Pravo", "Ekonomija"]
+        },
+        {
+          "name": "Uppsala University",
+          "website": "uu.se",
+          "url": "https://www.uu.se",
+          "programs": "Istraživanje",
+          "ranking": "#3 u Švedskoj",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najstariji u Skandinaviji (1477).",
+          "popularPrograms": ["Nauka", "Medicina", "Pravo"]
+        }
+      ]
+    },
+    "FI": {
+      "name": "Finska",
+      "mapPosition": { "x": 64.9, "y": 34.3 },
+      "flagCode": "fi",
+      "universities": [
+        {
+          "name": "University of Helsinki",
+          "website": "helsinki.fi",
+          "url": "https://www.helsinki.fi",
+          "programs": "Istraživanje",
+          "ranking": "#1 u Finskoj",
+          "scores": {
+            "toefl": { "min": 92, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vodeći finski univerzitet.",
+          "popularPrograms": ["Obrazovanje", "Medicina", "Pravo"]
+        },
+        {
+          "name": "Aalto University",
+          "website": "aalto.fi",
+          "url": "https://www.aalto.fi",
+          "programs": "Dizajn i Tech",
+          "ranking": "#2 u Finskoj",
+          "scores": {
+            "toefl": { "min": 92, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Umetnost, biznis i tehnologija.",
+          "popularPrograms": ["Dizajn", "Arhitektura", "IT"]
+        }
+      ]
+    },
+    "DK": {
+      "name": "Danska",
+      "mapPosition": { "x": 35.1, "y": 52.3 },
+      "flagCode": "dk",
+      "universities": [
+        {
+          "name": "University of Copenhagen",
+          "website": "ku.dk",
+          "url": "https://www.ku.dk",
+          "programs": "Istraživanje",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 83, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najveći univerzitet u Danskoj.",
+          "popularPrograms": ["Medicina", "Pravo", "Prirodne nauke"]
+        },
+        {
+          "name": "DTU",
+          "website": "dtu.dk",
+          "url": "https://www.dtu.dk",
+          "programs": "Inženjering",
+          "ranking": "#2 u Danskoj",
+          "scores": {
+            "toefl": { "min": 88, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Technical University of Denmark.",
+          "popularPrograms": ["Inženjering", "IT", "Energetika"]
+        },
+        {
+          "name": "CBS Copenhagen",
+          "website": "cbs.dk",
+          "url": "https://www.cbs.dk",
+          "programs": "Biznis",
+          "ranking": "Top biznis u Skandinaviji",
+          "scores": {
+            "toefl": { "min": 91, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Copenhagen Business School.",
+          "popularPrograms": ["MBA", "Finansije", "Marketing"]
+        }
+      ]
+    },
+    "EE": {
+      "name": "Estonija",
+      "mapPosition": { "x": 66.4, "y": 45.4 },
+      "flagCode": "ee",
+      "universities": [
+        {
+          "name": "University of Tartu",
+          "website": "ut.ee",
+          "url": "https://ut.ee",
+          "programs": "IT",
+          "ranking": "#1 u Estoniji",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "169+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Poznat po IT programima.",
+          "popularPrograms": ["CS", "Medicina", "Pravo"]
+        }
+      ]
+    },
+    "LV": {
+      "name": "Latvija",
+      "mapPosition": { "x": 65.2, "y": 50.0 },
+      "flagCode": "lv",
+      "universities": [
+        {
+          "name": "University of Latvia",
+          "website": "lu.lv",
+          "url": "https://www.lu.lv",
+          "programs": "Svi programi",
+          "ranking": "#1 u Latviji",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Najveći i najstariji latvijski univerzitet (1919).",
+          "popularPrograms": ["Medicina", "IT", "Ekonomija"]
+        }
+      ]
+    },
+    "LT": {
+      "name": "Litvanija",
+      "mapPosition": { "x": 61.4, "y": 54.3 },
+      "flagCode": "lt",
+      "universities": [
+        {
+          "name": "Vilnius University",
+          "website": "vu.lt",
+          "url": "https://www.vu.lt",
+          "programs": "Svi programi",
+          "ranking": "#1 u Litvaniji",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Najstariji univerzitet u Baltiku (1579). Top 400 globalno.",
+          "popularPrograms": ["Medicina", "Pravo", "IT"]
+        }
+      ]
+    },
+    "NL": {
+      "name": "Holandija",
+      "mapPosition": { "x": 28.4, "y": 63.5 },
+      "flagCode": "nl",
+      "universities": [
+        {
+          "name": "TU Delft",
+          "website": "tudelft.nl",
+          "url": "https://www.tudelft.nl",
+          "programs": "Inženjering",
+          "ranking": "Top 50 u svetu · #1 NL",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najstariji i najveći tehnički uni. 161ha kampus.",
+          "popularPrograms": ["Aeronautika", "Arhitektura", "Robotika"]
+        },
+        {
+          "name": "University of Amsterdam",
+          "website": "uva.nl",
+          "url": "https://www.uva.nl",
+          "programs": "Svi programi",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Najveći istraživački uni. Osnovan 1632.",
+          "popularPrograms": ["Komunikacije", "Psihologija", "Ekonomija"]
+        },
+        {
+          "name": "Utrecht University",
+          "website": "uu.nl",
+          "url": "https://www.uu.nl",
+          "programs": "Istraživanje",
+          "ranking": "#3 u Holandiji",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vodeći za nauku u NL.",
+          "popularPrograms": ["Medicina", "Pravo", "Nauka"]
+        },
+        {
+          "name": "Leiden University",
+          "website": "universiteitleiden.nl",
+          "url": "https://www.universiteitleiden.nl",
+          "programs": "Svi programi",
+          "ranking": "#4 u Holandiji",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najstariji u Holandiji (1575). 450 godina tradicije.",
+          "popularPrograms": ["Pravo", "IR", "Arheologija"]
+        },
+        {
+          "name": "Erasmus Rotterdam",
+          "website": "eur.nl",
+          "url": "https://www.eur.nl",
+          "programs": "Biznis",
+          "ranking": "#5 u Holandiji",
+          "scores": {
+            "toefl": { "min": 91, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Renomirana biznis škola.",
+          "popularPrograms": ["MBA", "Ekonomija", "Medicina"]
+        }
+      ]
+    },
+    "BE": {
+      "name": "Belgija",
+      "mapPosition": { "x": 27.1, "y": 66.6 },
+      "flagCode": "be",
+      "universities": [
+        {
+          "name": "KU Leuven",
+          "website": "kuleuven.be",
+          "url": "https://www.kuleuven.be",
+          "programs": "Istraživanje",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 94, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Najveći univerzitet u Belgiji.",
+          "popularPrograms": ["Inženjering", "Medicina", "Pravo"]
+        },
+        {
+          "name": "Ghent University",
+          "website": "ugent.be",
+          "url": "https://www.ugent.be",
+          "programs": "Svi programi",
+          "ranking": "#2 u Belgiji",
+          "scores": {
+            "toefl": { "min": 94, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vodeći flamanski univerzitet.",
+          "popularPrograms": ["Biotehnologija", "Pravo", "Veterina"]
+        }
+      ]
+    },
+    "DE": {
+      "name": "Nemačka",
+      "mapPosition": { "x": 38.2, "y": 64.9 },
+      "flagCode": "de",
+      "universities": [
+        {
+          "name": "TU Munich",
+          "website": "tum.de",
+          "url": "https://www.tum.de",
+          "programs": "STEM",
+          "ranking": "Top 50 u svetu · #1 DE",
+          "scores": {
+            "toefl": { "min": 88, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vodeći tehnički univerzitet. Bez školarine! 10 godina #1.",
+          "popularPrograms": ["Mašinstvo", "Informatika", "Elektrotehnika"]
+        },
+        {
+          "name": "LMU Munich",
+          "website": "lmu.de",
+          "url": "https://www.lmu.de",
+          "programs": "Svi programi",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Odlični istraživački programi.",
+          "popularPrograms": ["Medicina", "Pravo", "Ekonomija"]
+        },
+        {
+          "name": "Heidelberg University",
+          "website": "uni-heidelberg.de",
+          "url": "https://www.uni-heidelberg.de",
+          "programs": "Istraživanje",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najstariji u Nemačkoj (1386).",
+          "popularPrograms": ["Medicina", "Fizika", "Pravo"]
+        },
+        {
+          "name": "Free University Berlin",
+          "website": "fu-berlin.de",
+          "url": "https://www.fu-berlin.de",
+          "programs": "Humanističke",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vodeći za humanističke nauke.",
+          "popularPrograms": ["Političke nauke", "Filozofija", "Istorija"]
+        },
+        {
+          "name": "RWTH Aachen",
+          "website": "rwth-aachen.de",
+          "url": "https://www.rwth-aachen.de",
+          "programs": "Inženjering",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vodeći za inženjering. Uz TU Munich i KIT.",
+          "popularPrograms": ["Mašinstvo", "Elektrotehnika", "IT"]
+        },
+        {
+          "name": "Humboldt University Berlin",
+          "website": "hu-berlin.de",
+          "url": "https://www.hu-berlin.de",
+          "programs": "Svi programi",
+          "ranking": "#6 u Nemačkoj",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Prestižni berlinski univerzitet. 55 Nobelovaca.",
+          "popularPrograms": ["Filozofija", "Pravo", "Medicina"]
+        },
+        {
+          "name": "KIT Karlsruhe",
+          "website": "kit.edu",
+          "url": "https://www.kit.edu",
+          "programs": "Inženjering",
+          "ranking": "#7 u Nemačkoj",
+          "scores": {
+            "toefl": { "min": 88, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Karlsruhe Institute of Technology.",
+          "popularPrograms": ["Informatika", "Inženjering", "Fizika"]
+        },
+        {
+          "name": "University of Freiburg",
+          "website": "uni-freiburg.de",
+          "url": "https://www.uni-freiburg.de",
+          "programs": "Svi programi",
+          "ranking": "#8 u Nemačkoj",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Osnovan 1457. Jak u medicini i pravu.",
+          "popularPrograms": ["Medicina", "Pravo", "Biologija"]
+        },
+        {
+          "name": "University of Tübingen",
+          "website": "uni-tuebingen.de",
+          "url": "https://www.uni-tuebingen.de",
+          "programs": "Istraživanje",
+          "ranking": "#9 u Nemačkoj",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "AI i neuroscience centar izvrsnosti.",
+          "popularPrograms": ["AI", "Neuronauke", "Teologija"]
+        },
+        {
+          "name": "University of Mannheim",
+          "website": "uni-mannheim.de",
+          "url": "https://www.uni-mannheim.de",
+          "programs": "Biznis",
+          "ranking": "Top biznis u Nemačkoj",
+          "scores": {
+            "toefl": { "min": 95, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "'Harvard Nemačke' za biznis i ekonomiju.",
+          "popularPrograms": ["Biznis", "Ekonomija", "Psihologija"]
+        }
+      ]
+    },
+    "CH": {
+      "name": "Švajcarska",
+      "mapPosition": { "x": 33.5, "y": 75.3 },
+      "flagCode": "ch",
+      "universities": [
+        {
+          "name": "ETH Zurich",
+          "website": "ethz.ch",
+          "url": "https://ethz.ch",
+          "programs": "STEM",
+          "ranking": "#7 u svetu",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Vodeći tehnički univerzitet. 22 Nobelovca.",
+          "popularPrograms": ["Informatika", "Fizika", "Arhitektura"]
+        },
+        {
+          "name": "EPFL Lausanne",
+          "website": "epfl.ch",
+          "url": "https://www.epfl.ch",
+          "programs": "STEM",
+          "ranking": "Top 50 u svetu",
+          "scores": {
+            "toefl": { "min": 95, "recommended": 105 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "École Polytechnique Fédérale.",
+          "popularPrograms": ["Inženjering", "CS", "Nauka"]
+        },
+        {
+          "name": "University of Zurich",
+          "website": "uzh.ch",
+          "url": "https://www.uzh.ch",
+          "programs": "Svi programi",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 95, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najveći univerzitet u Švajcarskoj.",
+          "popularPrograms": ["Medicina", "Pravo", "Ekonomija"]
+        }
+      ]
+    },
+    "AT": {
+      "name": "Austrija",
+      "mapPosition": { "x": 45.6, "y": 74.3 },
+      "flagCode": "at",
+      "universities": [
+        {
+          "name": "University of Vienna",
+          "website": "univie.ac.at",
+          "url": "https://www.univie.ac.at",
+          "programs": "Humanističke",
+          "ranking": "#1 u Austriji",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najveći u nemačkom govornom području.",
+          "popularPrograms": ["Filozofija", "Pravo", "Psihologija"]
+        },
+        {
+          "name": "TU Vienna",
+          "website": "tuwien.at",
+          "url": "https://www.tuwien.at",
+          "programs": "Inženjering",
+          "ranking": "#2 u Austriji",
+          "scores": {
+            "toefl": { "min": 78, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Vodeći austrijski tehnički univerzitet.",
+          "popularPrograms": ["Arhitektura", "Informatika", "Mašinstvo"]
+        },
+        {
+          "name": "WU Vienna",
+          "website": "wu.ac.at",
+          "url": "https://www.wu.ac.at",
+          "programs": "Biznis",
+          "ranking": "Top biznis u Austriji",
+          "scores": {
+            "toefl": { "min": 95, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vienna University of Economics.",
+          "popularPrograms": ["MBA", "Finansije", "IR"]
+        }
+      ]
+    },
+    "HU": {
+      "name": "Mađarska",
+      "mapPosition": { "x": 53.1, "y": 74.7 },
+      "flagCode": "hu",
+      "universities": [
+        {
+          "name": "CEU",
+          "website": "ceu.edu",
+          "url": "https://www.ceu.edu",
+          "programs": "Društvene nauke",
+          "ranking": "Top za društvene nauke",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Central European University.",
+          "popularPrograms": ["Političke nauke", "Ekonomija", "IR"]
+        },
+        {
+          "name": "Semmelweis University",
+          "website": "semmelweis.hu",
+          "url": "https://semmelweis.hu",
+          "programs": "Medicina",
+          "ranking": "#1 medicina u Mađarskoj",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Vodeći medicinski univerzitet.",
+          "popularPrograms": ["Medicina", "Stomatologija", "Farmacija"]
+        },
+        {
+          "name": "BME Budapest",
+          "website": "bme.hu",
+          "url": "https://www.bme.hu",
+          "programs": "Inženjering",
+          "ranking": "#1 tech u Mađarskoj",
+          "scores": {
+            "toefl": { "min": 75, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Budapest University of Technology.",
+          "popularPrograms": ["Inženjering", "Arhitektura", "IT"]
+        }
+      ]
+    },
+    "FR": {
+      "name": "Francuska",
+      "mapPosition": { "x": 22.9, "y": 76.6 },
+      "flagCode": "fr",
+      "universities": [
+        {
+          "name": "PSL University Paris",
+          "website": "psl.eu",
+          "url": "https://psl.eu",
+          "programs": "Svi programi",
+          "ranking": "Top 50 u svetu · #1 FR",
+          "scores": {
+            "toefl": { "min": 95, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Prestižni pariski univerzitet. #1 od 2021.",
+          "popularPrograms": ["Umetnost", "Nauka", "Inženjering"]
+        },
+        {
+          "name": "Institut Polytechnique Paris",
+          "website": "ip-paris.fr",
+          "url": "https://www.ip-paris.fr",
+          "programs": "STEM",
+          "ranking": "Top 50 u svetu",
+          "scores": {
+            "toefl": { "min": 95, "recommended": 105 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Uključuje École Polytechnique. 120ha kampus.",
+          "popularPrograms": ["Inženjering", "Fizika", "Matematika"]
+        },
+        {
+          "name": "Sorbonne University",
+          "website": "sorbonne-universite.fr",
+          "url": "https://www.sorbonne-universite.fr",
+          "programs": "Humanističke",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Istorijski pariski univerzitet. 53,400 studenata.",
+          "popularPrograms": ["Književnost", "Istorija", "Filozofija"]
+        },
+        {
+          "name": "Paris-Saclay",
+          "website": "universite-paris-saclay.fr",
+          "url": "https://www.universite-paris-saclay.fr",
+          "programs": "STEM",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Jak u nauci i inženjeringu.",
+          "popularPrograms": ["Fizika", "Matematika", "Inženjering"]
+        },
+        {
+          "name": "Sciences Po",
+          "website": "sciencespo.fr",
+          "url": "https://www.sciencespo.fr",
+          "programs": "Političke nauke",
+          "ranking": "#1 političke nauke EU",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Elitna škola. 14,000 studenata, 50% međunarodnih.",
+          "popularPrograms": ["IR", "Političke nauke", "Pravo"]
+        },
+        {
+          "name": "HEC Paris",
+          "website": "hec.edu",
+          "url": "https://www.hec.edu",
+          "programs": "MBA",
+          "ranking": "#1 MBA Evropa",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Elitna biznis škola, #1 MBA u Evropi.",
+          "popularPrograms": ["MBA", "Finansije", "Menadžment"]
+        },
+        {
+          "name": "INSEAD",
+          "website": "insead.edu",
+          "url": "https://www.insead.edu",
+          "programs": "MBA",
+          "ranking": "#1 Global MBA",
+          "scores": {
+            "toefl": { "min": 105, "recommended": 115 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.5", "recommended": "8.0" }
+          },
+          "description": "Vodeća svetska biznis škola.",
+          "popularPrograms": ["MBA", "Executive Ed", "Consulting"]
+        }
+      ]
+    },
+    "PT": {
+      "name": "Portugalija",
+      "mapPosition": { "x": 4.3, "y": 89.4 },
+      "flagCode": "pt",
+      "universities": [
+        {
+          "name": "University of Lisbon",
+          "website": "ulisboa.pt",
+          "url": "https://www.ulisboa.pt",
+          "programs": "Svi programi",
+          "ranking": "#1 u Portugaliji",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najveći u Portugaliji. Pristupačno.",
+          "popularPrograms": ["Inženjering", "Arhitektura", "Ekonomija"]
+        },
+        {
+          "name": "University of Porto",
+          "website": "up.pt",
+          "url": "https://www.up.pt",
+          "programs": "Svi programi",
+          "ranking": "#2 u Portugaliji",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Vodeći istraživački univerzitet.",
+          "popularPrograms": ["Medicina", "Inženjering", "Ekonomija"]
+        },
+        {
+          "name": "Nova SBE",
+          "website": "novasbe.pt",
+          "url": "https://www.novasbe.pt",
+          "programs": "Biznis",
+          "ranking": "Top biznis u Portugaliji",
+          "scores": {
+            "toefl": { "min": 95, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Nova School of Business.",
+          "popularPrograms": ["Ekonomija", "Finansije", "Menadžment"]
+        }
+      ]
+    },
+    "ES": {
+      "name": "Španija",
+      "mapPosition": { "x": 11.8, "y": 90.9 },
+      "flagCode": "es",
+      "universities": [
+        {
+          "name": "IE Business School",
+          "website": "ie.edu",
+          "url": "https://www.ie.edu",
+          "programs": "MBA",
+          "ranking": "Top 10 MBA u svetu",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Vodeća biznis škola u Madridu.",
+          "popularPrograms": ["MBA", "Preduzetništvo", "Tech"]
+        },
+        {
+          "name": "ESADE Barcelona",
+          "website": "esade.edu",
+          "url": "https://www.esade.edu",
+          "programs": "MBA",
+          "ranking": "Top 15 MBA u svetu",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Prestižna katalonska biznis škola.",
+          "popularPrograms": ["MBA", "Pravo", "Consulting"]
+        },
+        {
+          "name": "Pompeu Fabra",
+          "website": "upf.edu",
+          "url": "https://www.upf.edu",
+          "programs": "Svi programi",
+          "ranking": "Top 100 u svetu",
+          "scores": {
+            "toefl": { "min": 87, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najprestižniji u Španiji.",
+          "popularPrograms": ["Ekonomija", "Biomedicina", "Komunikacije"]
+        },
+        {
+          "name": "University of Barcelona",
+          "website": "ub.edu",
+          "url": "https://www.ub.edu",
+          "programs": "Svi programi",
+          "ranking": "#2 u Španiji",
+          "scores": {
+            "toefl": { "min": 87, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najveći univerzitet u Kataloniji.",
+          "popularPrograms": ["Medicina", "Pravo", "Ekonomija"]
+        },
+        {
+          "name": "UC3M Madrid",
+          "website": "uc3m.es",
+          "url": "https://www.uc3m.es",
+          "programs": "Svi programi",
+          "ranking": "#3 u Španiji",
+          "scores": {
+            "toefl": { "min": 87, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Universidad Carlos III de Madrid. Jak za ekonomiju.",
+          "popularPrograms": ["Ekonomija", "Pravo", "Inženjering"]
+        }
+      ]
+    },
+    "IT": {
+      "name": "Italija",
+      "mapPosition": { "x": 38, "y": 79.7 },
+      "flagCode": "it",
+      "universities": [
+        {
+          "name": "Bocconi University",
+          "website": "unibocconi.eu",
+          "url": "https://www.unibocconi.eu",
+          "programs": "Biznis",
+          "ranking": "#1 biznis u Italiji",
+          "scores": {
+            "toefl": { "min": 96, "recommended": 105 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Elitna biznis škola u Milanu.",
+          "popularPrograms": ["Ekonomija", "Finansije", "Menadžment"]
+        },
+        {
+          "name": "Politecnico di Milano",
+          "website": "polimi.it",
+          "url": "https://www.polimi.it",
+          "programs": "Inženjering",
+          "ranking": "#1 tech u Italiji",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Vodeći za dizajn i inženjering.",
+          "popularPrograms": ["Arhitektura", "Dizajn", "Inženjering"]
+        },
+        {
+          "name": "University of Bologna",
+          "website": "unibo.it",
+          "url": "https://www.unibo.it",
+          "programs": "Svi programi",
+          "ranking": "#2 u Italiji",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Najstariji univerzitet na svetu (1088).",
+          "popularPrograms": ["Pravo", "Medicina", "Umetnost"]
+        },
+        {
+          "name": "Sapienza Rome",
+          "website": "uniroma1.it",
+          "url": "https://www.uniroma1.it",
+          "programs": "Svi programi",
+          "ranking": "#3 u Italiji",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Najveći univerzitet u Evropi.",
+          "popularPrograms": ["Medicina", "Inženjering", "Pravo"]
+        },
+        {
+          "name": "University of Padua",
+          "website": "unipd.it",
+          "url": "https://www.unipd.it",
+          "programs": "Svi programi",
+          "ranking": "#4 u Italiji",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Osnovan 1222. Galileo predavao.",
+          "popularPrograms": ["Medicina", "Pravo", "Psihologija"]
+        },
+        {
+          "name": "LUISS Rome",
+          "website": "luiss.it",
+          "url": "https://www.luiss.it",
+          "programs": "Biznis/Pravo",
+          "ranking": "Top privatni u Italiji",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Elitni privatni univerzitet. Jak za networking.",
+          "popularPrograms": ["Biznis", "Pravo", "Političke nauke"]
+        }
+      ]
+    },
+    "PL": {
+      "name": "Poljska",
+      "mapPosition": { "x": 53.6, "y": 62.0 },
+      "flagCode": "pl",
+      "universities": [
+        {
+          "name": "University of Warsaw",
+          "website": "uw.edu.pl",
+          "url": "https://www.uw.edu.pl",
+          "programs": "Svi programi",
+          "ranking": "#1 u Poljskoj",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Najveći univerzitet u Poljskoj.",
+          "popularPrograms": ["Pravo", "Ekonomija", "IR"]
+        },
+        {
+          "name": "Jagiellonian University",
+          "website": "uj.edu.pl",
+          "url": "https://www.uj.edu.pl",
+          "programs": "Svi programi",
+          "ranking": "#2 u Poljskoj",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Najstariji u Poljskoj (1364). Krakov.",
+          "popularPrograms": ["Medicina", "Pravo", "Filozofija"]
+        },
+        {
+          "name": "Warsaw University of Technology",
+          "website": "pw.edu.pl",
+          "url": "https://www.pw.edu.pl",
+          "programs": "Inženjering",
+          "ranking": "#3 u Poljskoj",
+          "scores": {
+            "toefl": { "min": 75, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Vodeći tehnički univerzitet.",
+          "popularPrograms": ["Inženjering", "IT", "Arhitektura"]
+        }
+      ]
+    },
+    "CZ": {
+      "name": "Češka",
+      "mapPosition": { "x": 48, "y": 69 },
+      "flagCode": "cz",
+      "universities": [
+        {
+          "name": "Charles University",
+          "website": "cuni.cz",
+          "url": "https://cuni.cz",
+          "programs": "Svi programi",
+          "ranking": "#1 u Češkoj",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Najstariji univerzitet u Centralnoj Evropi (1348).",
+          "popularPrograms": ["Medicina", "Pravo", "Filozofija"]
+        },
+        {
+          "name": "Czech Technical University",
+          "website": "cvut.cz",
+          "url": "https://www.cvut.cz",
+          "programs": "Inženjering",
+          "ranking": "#2 u Češkoj",
+          "scores": {
+            "toefl": { "min": 75, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "CTU Prague. Vodeći za inženjering.",
+          "popularPrograms": ["Inženjering", "Arhitektura", "IT"]
+        }
+      ]
+    },
+    "RO": {
+      "name": "Rumunija",
+      "mapPosition": { "x": 63.8, "y": 77.5 },
+      "flagCode": "ro",
+      "universities": [
+        {
+          "name": "University of Bucharest",
+          "website": "unibuc.ro",
+          "url": "https://unibuc.ro",
+          "programs": "Svi programi",
+          "ranking": "#1 u Rumuniji",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Najveći univerzitet. Vrlo pristupačno.",
+          "popularPrograms": ["Pravo", "Matematika", "Fizika"]
+        },
+        {
+          "name": "Babeș-Bolyai University",
+          "website": "ubbcluj.ro",
+          "url": "https://www.ubbcluj.ro",
+          "programs": "Svi programi",
+          "ranking": "#2 u Rumuniji",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Najveći u Transilvaniji. Kluz.",
+          "popularPrograms": ["Psihologija", "Hemija", "IT"]
+        }
+      ]
+    },
+    "BG": {
+      "name": "Bugarska",
+      "mapPosition": { "x": 64.2, "y": 84.9 },
+      "flagCode": "bg",
+      "universities": [
+        {
+          "name": "Sofia University",
+          "website": "uni-sofia.bg",
+          "url": "https://www.uni-sofia.bg",
+          "programs": "Svi programi",
+          "ranking": "#1 u Bugarskoj",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Najprestižniji u Bugarskoj.",
+          "popularPrograms": ["Pravo", "Ekonomija", "Fizika"]
+        },
+        {
+          "name": "Medical University Sofia",
+          "website": "mu-sofia.bg",
+          "url": "https://mu-sofia.bg",
+          "programs": "Medicina",
+          "ranking": "#1 medicina u Bugarskoj",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Vodeći za medicinu u Bugarskoj.",
+          "popularPrograms": ["Medicina", "Stomatologija", "Farmacija"]
+        }
+      ]
+    },
+    "GR": {
+      "name": "Grčka",
+      "mapPosition": { "x": 58.8, "y": 91.2 },
+      "flagCode": "gr",
+      "universities": [
+        {
+          "name": "NTUA Athens",
+          "website": "ntua.gr",
+          "url": "https://www.ntua.gr",
+          "programs": "Inženjering",
+          "ranking": "#1 u Grčkoj",
+          "scores": {
+            "toefl": { "min": 79, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Vodeći za inženjering u Grčkoj.",
+          "popularPrograms": ["Arhitektura", "Građevina", "Elektrotehnika"]
+        },
+        {
+          "name": "University of Athens",
+          "website": "uoa.gr",
+          "url": "https://en.uoa.gr",
+          "programs": "Svi programi",
+          "ranking": "#2 u Grčkoj",
+          "scores": {
+            "toefl": { "min": 79, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Najstariji u Grčkoj (1837).",
+          "popularPrograms": ["Medicina", "Pravo", "Filozofija"]
+        },
+        {
+          "name": "Aristotle University",
+          "website": "auth.gr",
+          "url": "https://www.auth.gr",
+          "programs": "Svi programi",
+          "ranking": "#3 u Grčkoj",
+          "scores": {
+            "toefl": { "min": 79, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Najveći univerzitet u Grčkoj. Solun.",
+          "popularPrograms": ["Medicina", "Inženjering", "Pravo"]
+        }
+      ]
+    },
+    "SI": {
+      "name": "Slovenija",
+      "mapPosition": { "x": 46.1, "y": 77.5 },
+      "flagCode": "si",
+      "universities": [
+        {
+          "name": "University of Ljubljana",
+          "website": "uni-lj.si",
+          "url": "https://www.uni-lj.si",
+          "programs": "Svi programi",
+          "ranking": "#1 u Sloveniji",
+          "scores": {
+            "toefl": { "min": 79, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Najveći slovenački univerzitet. Osnovan 1919.",
+          "popularPrograms": ["Medicina", "Pravo", "Ekonomija"]
+        },
+        {
+          "name": "University of Maribor",
+          "website": "um.si",
+          "url": "https://www.um.si",
+          "programs": "Svi programi",
+          "ranking": "#2 u Sloveniji",
+          "scores": {
+            "toefl": { "min": 75, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Drugi najveći. Jak za inženjering.",
+          "popularPrograms": ["Inženjering", "Ekonomija", "Pravo"]
+        }
+      ]
+    }
+  }
+}
