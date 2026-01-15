@@ -1,708 +1,288 @@
 {
   "meta": {
-    "version": "1.0.0",
-    "lastUpdated": "2025-01-14",
-    "totalCountries": 26,
-    "totalUniversities": 100
+    "version": "2.0.0",
+    "lastUpdated": "2025-01-15",
+    "totalCountries": 25,
+    "totalUniversities": 132
   },
   "countries": {
-    "IE": {
-      "name": "Irska",
-      "mapPosition": { "x": 4.9, "y": 60.6 },
-      "flagCode": "ie",
-      "universities": [
-        {
-          "name": "Trinity College Dublin",
-          "website": "tcd.ie",
-          "url": "https://www.tcd.ie",
-          "programs": "Svi programi",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 90, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najprestižniji irski univerzitet, osnovan 1592.",
-          "popularPrograms": ["CS", "Pravo", "Medicina"]
-        },
-        {
-          "name": "UCD Dublin",
-          "website": "ucd.ie",
-          "url": "https://www.ucd.ie",
-          "programs": "Svi programi",
-          "ranking": "#126 u svetu",
-          "scores": {
-            "toefl": { "min": 90, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najveći univerzitet u Irskoj.",
-          "popularPrograms": ["Biznis", "Veterina", "Arhitektura"]
-        }
-      ]
-    },
-    "GB": {
-      "name": "Velika Britanija",
-      "mapPosition": { "x": 16.4, "y": 62.2 },
-      "flagCode": "gb",
-      "universities": [
-        {
-          "name": "University of Oxford",
-          "website": "ox.ac.uk",
-          "url": "https://www.ox.ac.uk",
-          "programs": "Svi programi",
-          "ranking": "#3 u svetu",
-          "scores": {
-            "toefl": { "min": 110, "recommended": 120 },
-            "cambridge": { "min": "185+", "recommended": "193+" },
-            "ielts": { "min": "7.5", "recommended": "8.0" }
-          },
-          "description": "Najstariji univerzitet u anglofonom svetu. 121 Nobelovaca.",
-          "popularPrograms": ["PPE", "Pravo", "Medicina", "CS"]
-        },
-        {
-          "name": "University of Cambridge",
-          "website": "cam.ac.uk",
-          "url": "https://www.cam.ac.uk",
-          "programs": "Svi programi",
-          "ranking": "#5 u svetu",
-          "scores": {
-            "toefl": { "min": 110, "recommended": 120 },
-            "cambridge": { "min": "185+", "recommended": "193+" },
-            "ielts": { "min": "7.5", "recommended": "8.0" }
-          },
-          "description": "Vodeći svetski univerzitet za nauku. 31 koledž.",
-          "popularPrograms": ["Nauka", "Inženjering", "Matematika"]
-        },
-        {
-          "name": "Imperial College London",
-          "website": "imperial.ac.uk",
-          "url": "https://www.imperial.ac.uk",
-          "programs": "STEM",
-          "ranking": "#9 u svetu",
-          "scores": {
-            "toefl": { "min": 100, "recommended": 110 },
-            "cambridge": { "min": "185+", "recommended": "193+" },
-            "ielts": { "min": "7.0", "recommended": "7.5" }
-          },
-          "description": "Specijalizovan za nauku i inženjering.",
-          "popularPrograms": ["Inženjering", "CS", "Medicina"]
-        },
-        {
-          "name": "UCL",
-          "website": "ucl.ac.uk",
-          "url": "https://www.ucl.ac.uk",
-          "programs": "Svi programi",
-          "ranking": "Top 50 u svetu",
-          "scores": {
-            "toefl": { "min": 96, "recommended": 105 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "7.0", "recommended": "7.5" }
-          },
-          "description": "Univerzitet u centru Londona. 12 Nobelovaca.",
-          "popularPrograms": ["Arhitektura", "Pravo", "Medicina"]
-        },
-        {
-          "name": "University of Edinburgh",
-          "website": "ed.ac.uk",
-          "url": "https://www.ed.ac.uk",
-          "programs": "Svi programi",
-          "ranking": "Top 50 u svetu",
-          "scores": {
-            "toefl": { "min": 100, "recommended": 110 },
-            "cambridge": { "min": "185+", "recommended": "193+" },
-            "ielts": { "min": "7.0", "recommended": "7.5" }
-          },
-          "description": "Vodeći škotski univerzitet.",
-          "popularPrograms": ["AI", "Medicina", "Pravo"]
-        },
-        {
-          "name": "University of Manchester",
-          "website": "manchester.ac.uk",
-          "url": "https://www.manchester.ac.uk",
-          "programs": "Svi programi",
-          "ranking": "Top 50 u svetu",
-          "scores": {
-            "toefl": { "min": 90, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Jedno od najvećih istraživačkih središta.",
-          "popularPrograms": ["Fizika", "Inženjering", "Biznis"]
-        },
-        {
-          "name": "King's College London",
-          "website": "kcl.ac.uk",
-          "url": "https://www.kcl.ac.uk",
-          "programs": "Svi programi",
-          "ranking": "Top 50 u svetu",
-          "scores": {
-            "toefl": { "min": 96, "recommended": 105 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "7.0", "recommended": "7.5" }
-          },
-          "description": "Prestižni londonski univerzitet.",
-          "popularPrograms": ["Pravo", "Medicina", "Humanities"]
-        },
-        {
-          "name": "LSE",
-          "website": "lse.ac.uk",
-          "url": "https://www.lse.ac.uk",
-          "programs": "Društvene nauke",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 107, "recommended": 115 },
-            "cambridge": { "min": "185+", "recommended": "193+" },
-            "ielts": { "min": "7.0", "recommended": "7.5" }
-          },
-          "description": "Vodeća institucija za ekonomiju. 60% međunarodnih studenata.",
-          "popularPrograms": ["Ekonomija", "Finansije", "IR"]
-        },
-        {
-          "name": "University of Bristol",
-          "website": "bristol.ac.uk",
-          "url": "https://www.bristol.ac.uk",
-          "programs": "Svi programi",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 90, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Russell Group član. Pionir rodne ravnopravnosti (1876).",
-          "popularPrograms": ["Inženjering", "Pravo", "Medicina"]
-        },
-        {
-          "name": "University of Warwick",
-          "website": "warwick.ac.uk",
-          "url": "https://warwick.ac.uk",
-          "programs": "Biznis",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 92, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Poznata biznis škola (WBS). 29,000 studenata.",
-          "popularPrograms": ["WBS", "Ekonomija", "Matematika"]
-        },
-        {
-          "name": "Durham University",
-          "website": "durham.ac.uk",
-          "url": "https://www.durham.ac.uk",
-          "programs": "Svi programi",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 92, "recommended": 102 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Konzistentno u Top 10 UK. Koledž sistem.",
-          "popularPrograms": ["Pravo", "Istorija", "Fizika"]
-        },
-        {
-          "name": "University of Glasgow",
-          "website": "gla.ac.uk",
-          "url": "https://www.gla.ac.uk",
-          "programs": "Svi programi",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 90, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Osnovan 1451. Četvrti najstariji u UK.",
-          "popularPrograms": ["Medicina", "Pravo", "Inženjering"]
-        }
-      ]
-    },
-    "NO": {
-      "name": "Norveška",
-      "mapPosition": { "x": 35.6, "y": 36.9 },
-      "flagCode": "no",
-      "universities": [
-        {
-          "name": "University of Oslo",
-          "website": "uio.no",
-          "url": "https://www.uio.no",
-          "programs": "Istraživanje",
-          "ranking": "#1 u Norveškoj",
-          "scores": {
-            "toefl": { "min": 90, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najveći u Norveškoj. Bez školarine!",
-          "popularPrograms": ["Pravo", "Medicina", "Društvene nauke"]
-        },
-        {
-          "name": "NTNU Trondheim",
-          "website": "ntnu.edu",
-          "url": "https://www.ntnu.edu",
-          "programs": "Inženjering",
-          "ranking": "#2 u Norveškoj",
-          "scores": {
-            "toefl": { "min": 90, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Vodeći za inženjering u Norveškoj.",
-          "popularPrograms": ["Inženjering", "IT", "Arhitektura"]
-        }
-      ]
-    },
-    "SE": {
-      "name": "Švedska",
-      "mapPosition": { "x": 44.7, "y": 42.1 },
-      "flagCode": "se",
-      "universities": [
-        {
-          "name": "KTH Royal Institute",
-          "website": "kth.se",
-          "url": "https://www.kth.se",
-          "programs": "Inženjering",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 90, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Vodeći tehnički univerzitet u Skandinaviji.",
-          "popularPrograms": ["Inženjering", "IT", "Biotehnologija"]
-        },
-        {
-          "name": "Lund University",
-          "website": "lunduniversity.lu.se",
-          "url": "https://www.lunduniversity.lu.se",
-          "programs": "Svi programi",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 90, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najprestižniji u Skandinaviji.",
-          "popularPrograms": ["Medicina", "Pravo", "Ekonomija"]
-        },
-        {
-          "name": "Uppsala University",
-          "website": "uu.se",
-          "url": "https://www.uu.se",
-          "programs": "Istraživanje",
-          "ranking": "#3 u Švedskoj",
-          "scores": {
-            "toefl": { "min": 90, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najstariji u Skandinaviji (1477).",
-          "popularPrograms": ["Nauka", "Medicina", "Pravo"]
-        }
-      ]
-    },
-    "FI": {
-      "name": "Finska",
-      "mapPosition": { "x": 64.9, "y": 34.3 },
-      "flagCode": "fi",
-      "universities": [
-        {
-          "name": "University of Helsinki",
-          "website": "helsinki.fi",
-          "url": "https://www.helsinki.fi",
-          "programs": "Istraživanje",
-          "ranking": "#1 u Finskoj",
-          "scores": {
-            "toefl": { "min": 92, "recommended": 105 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Vodeći finski univerzitet.",
-          "popularPrograms": ["Obrazovanje", "Medicina", "Pravo"]
-        },
-        {
-          "name": "Aalto University",
-          "website": "aalto.fi",
-          "url": "https://www.aalto.fi",
-          "programs": "Dizajn i Tech",
-          "ranking": "#2 u Finskoj",
-          "scores": {
-            "toefl": { "min": 92, "recommended": 105 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Umetnost, biznis i tehnologija.",
-          "popularPrograms": ["Dizajn", "Arhitektura", "IT"]
-        }
-      ]
-    },
-    "DK": {
-      "name": "Danska",
-      "mapPosition": { "x": 35.1, "y": 52.3 },
-      "flagCode": "dk",
-      "universities": [
-        {
-          "name": "University of Copenhagen",
-          "website": "ku.dk",
-          "url": "https://www.ku.dk",
-          "programs": "Istraživanje",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 83, "recommended": 95 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najveći univerzitet u Danskoj.",
-          "popularPrograms": ["Medicina", "Pravo", "Prirodne nauke"]
-        },
-        {
-          "name": "DTU",
-          "website": "dtu.dk",
-          "url": "https://www.dtu.dk",
-          "programs": "Inženjering",
-          "ranking": "#2 u Danskoj",
-          "scores": {
-            "toefl": { "min": 88, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Technical University of Denmark.",
-          "popularPrograms": ["Inženjering", "IT", "Energetika"]
-        },
-        {
-          "name": "CBS Copenhagen",
-          "website": "cbs.dk",
-          "url": "https://www.cbs.dk",
-          "programs": "Biznis",
-          "ranking": "Top biznis u Skandinaviji",
-          "scores": {
-            "toefl": { "min": 91, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Copenhagen Business School.",
-          "popularPrograms": ["MBA", "Finansije", "Marketing"]
-        }
-      ]
-    },
-    "EE": {
-      "name": "Estonija",
-      "mapPosition": { "x": 66.4, "y": 45.4 },
-      "flagCode": "ee",
-      "universities": [
-        {
-          "name": "University of Tartu",
-          "website": "ut.ee",
-          "url": "https://ut.ee",
-          "programs": "IT",
-          "ranking": "#1 u Estoniji",
-          "scores": {
-            "toefl": { "min": 72, "recommended": 85 },
-            "cambridge": { "min": "169+", "recommended": "176+" },
-            "ielts": { "min": "5.5", "recommended": "6.5" }
-          },
-          "description": "Poznat po IT programima.",
-          "popularPrograms": ["CS", "Medicina", "Pravo"]
-        }
-      ]
-    },
-    "LV": {
-      "name": "Latvija",
-      "mapPosition": { "x": 65.2, "y": 50.0 },
-      "flagCode": "lv",
-      "universities": [
-        {
-          "name": "University of Latvia",
-          "website": "lu.lv",
-          "url": "https://www.lu.lv",
-          "programs": "Svi programi",
-          "ranking": "#1 u Latviji",
-          "scores": {
-            "toefl": { "min": 72, "recommended": 85 },
-            "cambridge": { "min": "162+", "recommended": "176+" },
-            "ielts": { "min": "5.5", "recommended": "6.5" }
-          },
-          "description": "Najveći i najstariji latvijski univerzitet (1919).",
-          "popularPrograms": ["Medicina", "IT", "Ekonomija"]
-        }
-      ]
-    },
-    "LT": {
-      "name": "Litvanija",
-      "mapPosition": { "x": 61.4, "y": 54.3 },
-      "flagCode": "lt",
-      "universities": [
-        {
-          "name": "Vilnius University",
-          "website": "vu.lt",
-          "url": "https://www.vu.lt",
-          "programs": "Svi programi",
-          "ranking": "#1 u Litvaniji",
-          "scores": {
-            "toefl": { "min": 72, "recommended": 85 },
-            "cambridge": { "min": "162+", "recommended": "176+" },
-            "ielts": { "min": "5.5", "recommended": "6.5" }
-          },
-          "description": "Najstariji univerzitet u Baltiku (1579). Top 400 globalno.",
-          "popularPrograms": ["Medicina", "Pravo", "IT"]
-        }
-      ]
-    },
-    "NL": {
-      "name": "Holandija",
-      "mapPosition": { "x": 28.4, "y": 63.5 },
-      "flagCode": "nl",
-      "universities": [
-        {
-          "name": "TU Delft",
-          "website": "tudelft.nl",
-          "url": "https://www.tudelft.nl",
-          "programs": "Inženjering",
-          "ranking": "Top 50 u svetu · #1 NL",
-          "scores": {
-            "toefl": { "min": 90, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najstariji i najveći tehnički uni. 161ha kampus.",
-          "popularPrograms": ["Aeronautika", "Arhitektura", "Robotika"]
-        },
-        {
-          "name": "University of Amsterdam",
-          "website": "uva.nl",
-          "url": "https://www.uva.nl",
-          "programs": "Svi programi",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 100, "recommended": 110 },
-            "cambridge": { "min": "185+", "recommended": "193+" },
-            "ielts": { "min": "7.0", "recommended": "7.5" }
-          },
-          "description": "Najveći istraživački uni. Osnovan 1632.",
-          "popularPrograms": ["Komunikacije", "Psihologija", "Ekonomija"]
-        },
-        {
-          "name": "Utrecht University",
-          "website": "uu.nl",
-          "url": "https://www.uu.nl",
-          "programs": "Istraživanje",
-          "ranking": "#3 u Holandiji",
-          "scores": {
-            "toefl": { "min": 100, "recommended": 110 },
-            "cambridge": { "min": "185+", "recommended": "193+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Vodeći za nauku u NL.",
-          "popularPrograms": ["Medicina", "Pravo", "Nauka"]
-        },
-        {
-          "name": "Leiden University",
-          "website": "universiteitleiden.nl",
-          "url": "https://www.universiteitleiden.nl",
-          "programs": "Svi programi",
-          "ranking": "#4 u Holandiji",
-          "scores": {
-            "toefl": { "min": 100, "recommended": 110 },
-            "cambridge": { "min": "185+", "recommended": "193+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najstariji u Holandiji (1575). 450 godina tradicije.",
-          "popularPrograms": ["Pravo", "IR", "Arheologija"]
-        },
-        {
-          "name": "Erasmus Rotterdam",
-          "website": "eur.nl",
-          "url": "https://www.eur.nl",
-          "programs": "Biznis",
-          "ranking": "#5 u Holandiji",
-          "scores": {
-            "toefl": { "min": 91, "recommended": 100 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Renomirana biznis škola.",
-          "popularPrograms": ["MBA", "Ekonomija", "Medicina"]
-        }
-      ]
-    },
-    "BE": {
-      "name": "Belgija",
-      "mapPosition": { "x": 27.1, "y": 66.6 },
-      "flagCode": "be",
-      "universities": [
-        {
-          "name": "KU Leuven",
-          "website": "kuleuven.be",
-          "url": "https://www.kuleuven.be",
-          "programs": "Istraživanje",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 94, "recommended": 105 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "7.0", "recommended": "7.5" }
-          },
-          "description": "Najveći univerzitet u Belgiji.",
-          "popularPrograms": ["Inženjering", "Medicina", "Pravo"]
-        },
-        {
-          "name": "Ghent University",
-          "website": "ugent.be",
-          "url": "https://www.ugent.be",
-          "programs": "Svi programi",
-          "ranking": "#2 u Belgiji",
-          "scores": {
-            "toefl": { "min": 94, "recommended": 105 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Vodeći flamanski univerzitet.",
-          "popularPrograms": ["Biotehnologija", "Pravo", "Veterina"]
-        }
-      ]
-    },
     "DE": {
       "name": "Nemačka",
       "mapPosition": { "x": 38.2, "y": 64.9 },
       "flagCode": "de",
       "universities": [
         {
-          "name": "TU Munich",
+          "name": "Technical University of Munich",
           "website": "tum.de",
           "url": "https://www.tum.de",
-          "programs": "STEM",
-          "ranking": "Top 50 u svetu · #1 DE",
+          "programs": "STEM, Biznis",
+          "ranking": "#37 QS · #26 THE",
           "scores": {
             "toefl": { "min": 88, "recommended": 100 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Vodeći tehnički univerzitet. Bez školarine! 10 godina #1.",
-          "popularPrograms": ["Mašinstvo", "Informatika", "Elektrotehnika"]
+          "description": "Vodeći tehnički univerzitet u Nemačkoj 10 godina zaredom. Direktne veze sa BMW, Siemens, Audi. 50+ Master programa na engleskom. Školarina €2,000-6,000 za non-EU od 2024.",
+          "popularPrograms": ["Mašinstvo", "Informatika", "Elektrotehnika", "Menadžment"]
         },
         {
           "name": "LMU Munich",
           "website": "lmu.de",
           "url": "https://www.lmu.de",
           "programs": "Svi programi",
-          "ranking": "Top 100 u svetu",
+          "ranking": "#54 QS · #38 THE",
           "scores": {
             "toefl": { "min": 85, "recommended": 95 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Odlični istraživački programi.",
-          "popularPrograms": ["Medicina", "Pravo", "Ekonomija"]
+          "description": "43 Nobelovca. Drugi najveći univerzitet u Nemačkoj. BEZ ŠKOLARINE — samo €137 semestralnih taksi. Jak za medicinu, pravo, fiziku.",
+          "popularPrograms": ["Medicina", "Fizika", "Pravo", "Ekonomija"]
         },
         {
           "name": "Heidelberg University",
           "website": "uni-heidelberg.de",
           "url": "https://www.uni-heidelberg.de",
           "programs": "Istraživanje",
-          "ranking": "Top 100 u svetu",
+          "ranking": "#50 QS · #47 THE",
           "scores": {
             "toefl": { "min": 85, "recommended": 95 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Najstariji u Nemačkoj (1386).",
-          "popularPrograms": ["Medicina", "Fizika", "Pravo"]
+          "description": "Najstariji univerzitet u Nemačkoj (1386). 56 Nobelovaca. Školarina €1,500/sem za non-EU (Baden-Württemberg). Centar izvrsnosti za life sciences.",
+          "popularPrograms": ["Medicina", "Life Sciences", "Fizika", "Pravo"]
         },
         {
-          "name": "Free University Berlin",
-          "website": "fu-berlin.de",
-          "url": "https://www.fu-berlin.de",
-          "programs": "Humanističke",
-          "ranking": "Top 100 u svetu",
+          "name": "Humboldt University Berlin",
+          "website": "hu-berlin.de",
+          "url": "https://www.hu-berlin.de",
+          "programs": "Humanističke, Nauka",
+          "ranking": "#87 QS · #84 THE",
           "scores": {
             "toefl": { "min": 85, "recommended": 95 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Vodeći za humanističke nauke.",
-          "popularPrograms": ["Političke nauke", "Filozofija", "Istorija"]
+          "description": "55 Nobelovaca uključujući Einsteina. BEZ ŠKOLARINE — €315 semestralne takse. Centar Berlina. Model za moderne istraživačke univerzitete.",
+          "popularPrograms": ["Filozofija", "Pravo", "Medicina", "Istorija"]
+        },
+        {
+          "name": "Freie Universität Berlin",
+          "website": "fu-berlin.de",
+          "url": "https://www.fu-berlin.de",
+          "programs": "Humanističke, Nauka",
+          "ranking": "#84 QS · #104 THE",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "BEZ ŠKOLARINE. Vodeći za političke nauke i Earth Sciences. 20+ Master programa na engleskom. Berlin — najuzbudljiviji grad za studente u Evropi.",
+          "popularPrograms": ["Političke nauke", "Filozofija", "Istorija", "Earth Sciences"]
         },
         {
           "name": "RWTH Aachen",
           "website": "rwth-aachen.de",
           "url": "https://www.rwth-aachen.de",
           "programs": "Inženjering",
-          "ranking": "Top 100 u svetu",
+          "ranking": "#90 QS · #92 THE",
           "scores": {
             "toefl": { "min": 90, "recommended": 100 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Vodeći za inženjering. Uz TU Munich i KIT.",
-          "popularPrograms": ["Mašinstvo", "Elektrotehnika", "IT"]
-        },
-        {
-          "name": "Humboldt University Berlin",
-          "website": "hu-berlin.de",
-          "url": "https://www.hu-berlin.de",
-          "programs": "Svi programi",
-          "ranking": "#6 u Nemačkoj",
-          "scores": {
-            "toefl": { "min": 85, "recommended": 95 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Prestižni berlinski univerzitet. 55 Nobelovaca.",
-          "popularPrograms": ["Filozofija", "Pravo", "Medicina"]
+          "description": "BEZ ŠKOLARINE. Najveći tehnički univerzitet u Nemačkoj. 45,000 studenata. Direktne veze sa automobilskom industrijom. 35 Master programa na engleskom.",
+          "popularPrograms": ["Mašinstvo", "Elektrotehnika", "IT", "Automotive"]
         },
         {
           "name": "KIT Karlsruhe",
           "website": "kit.edu",
           "url": "https://www.kit.edu",
-          "programs": "Inženjering",
-          "ranking": "#7 u Nemačkoj",
+          "programs": "Inženjering, IT",
+          "ranking": "#119 QS · ~#150 THE",
           "scores": {
             "toefl": { "min": 88, "recommended": 100 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Karlsruhe Institute of Technology.",
-          "popularPrograms": ["Informatika", "Inženjering", "Fizika"]
+          "description": "Karlsruhe Institute of Technology. Školarina €1,500/sem (Baden-Württemberg). Vodeći za informatiku i inženjering. Birthplace of the automobile.",
+          "popularPrograms": ["Informatika", "Inženjering", "Fizika", "Energetika"]
+        },
+        {
+          "name": "University of Göttingen",
+          "website": "uni-goettingen.de",
+          "url": "https://www.uni-goettingen.de",
+          "programs": "Istraživanje",
+          "ranking": "#209 QS · ~#140 THE",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "BEZ ŠKOLARINE. 45 Nobelovaca. Istorijski centar matematike i fizike (Gauss, Hilbert, Heisenberg). 20+ programa na engleskom.",
+          "popularPrograms": ["Matematika", "Fizika", "Biologija", "Ekonomija"]
         },
         {
           "name": "University of Freiburg",
           "website": "uni-freiburg.de",
           "url": "https://www.uni-freiburg.de",
           "programs": "Svi programi",
-          "ranking": "#8 u Nemačkoj",
+          "ranking": "#192 QS · ~#150 THE",
           "scores": {
             "toefl": { "min": 85, "recommended": 95 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Osnovan 1457. Jak u medicini i pravu.",
-          "popularPrograms": ["Medicina", "Pravo", "Biologija"]
+          "description": "Osnovan 1457. Školarina €1,500/sem (Baden-Württemberg). Najsunčaniji grad Nemačke. Jak za medicinu, pravo, šumarstvo.",
+          "popularPrograms": ["Medicina", "Pravo", "Biologija", "Šumarstvo"]
         },
         {
-          "name": "University of Tübingen",
-          "website": "uni-tuebingen.de",
-          "url": "https://www.uni-tuebingen.de",
-          "programs": "Istraživanje",
-          "ranking": "#9 u Nemačkoj",
+          "name": "TU Berlin",
+          "website": "tu.berlin",
+          "url": "https://www.tu.berlin",
+          "programs": "Inženjering",
+          "ranking": "#154 QS · ~#140 THE",
           "scores": {
             "toefl": { "min": 85, "recommended": 95 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "AI i neuroscience centar izvrsnosti.",
-          "popularPrograms": ["AI", "Neuronauke", "Teologija"]
+          "description": "BEZ ŠKOLARINE. 30+ Master programa na engleskom. Centar Berlina. Vodeći za arhitekturu i urban planning u Nemačkoj.",
+          "popularPrograms": ["Inženjering", "Arhitektura", "IT", "Urban Planning"]
+        },
+        {
+          "name": "TU Dresden",
+          "website": "tu-dresden.de",
+          "url": "https://www.tu-dresden.de",
+          "programs": "Inženjering",
+          "ranking": "#197 QS · #200-250 THE",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "BEZ ŠKOLARINE. 'Silicon Saxony' — centar mikročipova u Evropi. 25+ Master programa na engleskom. Prelepi barokni grad.",
+          "popularPrograms": ["Inženjering", "Mikroelektronika", "IT", "Materijali"]
+        },
+        {
+          "name": "University of Bonn",
+          "website": "uni-bonn.de",
+          "url": "https://www.uni-bonn.de",
+          "programs": "Istraživanje",
+          "ranking": "#213 QS · #89 THE",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "BEZ ŠKOLARINE. Bivša prestonica Nemačke. Jak za matematiku (#30 globalno) i ekonomiju. UN kampus u gradu.",
+          "popularPrograms": ["Matematika", "Ekonomija", "Pravo", "Nauka"]
         },
         {
           "name": "University of Mannheim",
           "website": "uni-mannheim.de",
           "url": "https://www.uni-mannheim.de",
-          "programs": "Biznis",
-          "ranking": "Top biznis u Nemačkoj",
+          "programs": "Biznis, Ekonomija",
+          "ranking": "Top biznis u DE",
           "scores": {
             "toefl": { "min": 95, "recommended": 105 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "'Harvard Nemačke' za biznis i ekonomiju.",
-          "popularPrograms": ["Biznis", "Ekonomija", "Psihologija"]
+          "description": "'Harvard Nemačke' za biznis i ekonomiju. Školarina €1,500/sem. Barokna palata kao kampus. Jak corporate recruiting.",
+          "popularPrograms": ["Biznis", "Ekonomija", "Psihologija", "Data Science"]
+        }
+      ]
+    },
+    "AT": {
+      "name": "Austrija",
+      "mapPosition": { "x": 45.6, "y": 74.3 },
+      "flagCode": "at",
+      "universities": [
+        {
+          "name": "University of Vienna",
+          "website": "univie.ac.at",
+          "url": "https://www.univie.ac.at",
+          "programs": "Humanističke, Nauka",
+          "ranking": "#130 QS · #130 THE",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "21 Nobelovaca (Freud, Schrödinger). Najveći u nemačkom govornom području. Samo €752/sem za non-EU. 4 sata od Beograda. Velika srpska zajednica.",
+          "popularPrograms": ["Filozofija", "Pravo", "Psihologija", "Medicina"]
+        },
+        {
+          "name": "TU Wien",
+          "website": "tuwien.at",
+          "url": "https://www.tuwien.at",
+          "programs": "Inženjering",
+          "ranking": "#181 QS · ~#250 THE",
+          "scores": {
+            "toefl": { "min": 78, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Vodeći tehnički univerzitet u Austriji od 1815. Samo €752/sem. 15 Master programa na engleskom. Centar Beča.",
+          "popularPrograms": ["Arhitektura", "Informatika", "Mašinstvo", "Elektrotehnika"]
+        },
+        {
+          "name": "University of Innsbruck",
+          "website": "uibk.ac.at",
+          "url": "https://www.uibk.ac.at",
+          "programs": "Nauka, Sport",
+          "ranking": "#240 QS · ~#300 THE",
+          "scores": {
+            "toefl": { "min": 78, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "U srcu Alpa. Samo €752/sem. Vodeći za mountain research, fiziku, turizam. Ski resort bukvalno na kampusu.",
+          "popularPrograms": ["Fizika", "Turizam", "Sport Science", "Atmosferske nauke"]
+        },
+        {
+          "name": "Graz University of Technology",
+          "website": "tugraz.at",
+          "url": "https://www.tugraz.at",
+          "programs": "Inženjering",
+          "ranking": "#310 QS · ~#400 THE",
+          "scores": {
+            "toefl": { "min": 78, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Nikola Tesla studirao ovde. Samo €752/sem. Centar za space technology i automotive. 10+ programa na engleskom.",
+          "popularPrograms": ["Space Technology", "Inženjering", "IT", "Automotive"]
+        },
+        {
+          "name": "Medical University of Vienna",
+          "website": "meduniwien.ac.at",
+          "url": "https://www.meduniwien.ac.at",
+          "programs": "Medicina",
+          "ranking": "~#200 (Medicine)",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najstariji medicinski fakultet u svetu (1365). Samo €752/sem. Top evropski medicinski research. AKH — jedna od najvećih bolnica u Evropi.",
+          "popularPrograms": ["Medicina", "Stomatologija", "Biomedicina"]
+        },
+        {
+          "name": "WU Vienna",
+          "website": "wu.ac.at",
+          "url": "https://www.wu.ac.at",
+          "programs": "Biznis",
+          "ranking": "Triple accredited (AACSB, EQUIS, AMBA)",
+          "scores": {
+            "toefl": { "min": 95, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vienna University of Economics and Business. Iconic Zaha Hadid kampus. Samo €752/sem za non-EU. Top MBA u Austriji.",
+          "popularPrograms": ["MBA", "Finansije", "International Relations", "Supply Chain"]
         }
       ]
     },
@@ -716,140 +296,266 @@
           "website": "ethz.ch",
           "url": "https://ethz.ch",
           "programs": "STEM",
-          "ranking": "#7 u svetu",
+          "ranking": "#7 QS · #11 THE",
           "scores": {
             "toefl": { "min": 100, "recommended": 110 },
             "cambridge": { "min": "185+", "recommended": "193+" },
             "ielts": { "min": "7.0", "recommended": "7.5" }
           },
-          "description": "Vodeći tehnički univerzitet. 22 Nobelovca.",
-          "popularPrograms": ["Informatika", "Fizika", "Arhitektura"]
+          "description": "22 Nobelovca (Einstein alumni). #1 u kontinentalnoj Evropi. CHF 2,190/sem (povećano 2025). World-class za CS, physics, architecture.",
+          "popularPrograms": ["Informatika", "Fizika", "Arhitektura", "Inženjering"]
         },
         {
           "name": "EPFL Lausanne",
           "website": "epfl.ch",
           "url": "https://www.epfl.ch",
           "programs": "STEM",
-          "ranking": "Top 50 u svetu",
+          "ranking": "#9 QS · #19 THE",
           "scores": {
             "toefl": { "min": 95, "recommended": 105 },
             "cambridge": { "min": "185+", "recommended": "193+" },
             "ielts": { "min": "7.0", "recommended": "7.5" }
           },
-          "description": "École Polytechnique Fédérale.",
-          "popularPrograms": ["Inženjering", "CS", "Nauka"]
+          "description": "École Polytechnique Fédérale de Lausanne. Najmlađi elite uni u top 10. CHF 2,190/sem. Vodeći za robotiku i AI. Prelep kampus na jezeru.",
+          "popularPrograms": ["Inženjering", "CS", "Robotika", "Life Sciences"]
         },
         {
           "name": "University of Zurich",
           "website": "uzh.ch",
           "url": "https://www.uzh.ch",
           "programs": "Svi programi",
-          "ranking": "Top 100 u svetu",
+          "ranking": "#91 QS · #80 THE",
           "scores": {
             "toefl": { "min": 95, "recommended": 105 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Najveći univerzitet u Švajcarskoj.",
-          "popularPrograms": ["Medicina", "Pravo", "Ekonomija"]
+          "description": "Najveći univerzitet u Švajcarskoj. 12 Nobelovaca. Samo CHF 720/sem. Jak za finansije, medicinu, pravo. Banking hub.",
+          "popularPrograms": ["Medicina", "Pravo", "Ekonomija", "Finansije"]
+        },
+        {
+          "name": "University of Geneva",
+          "website": "unige.ch",
+          "url": "https://www.unige.ch",
+          "programs": "IR, Nauka",
+          "ranking": "#105 QS · ~#150 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "UN grad — sedište WHO, WTO, UNHCR. Samo CHF 500/sem! Vodeći za International Relations i diplomacy. French-speaking.",
+          "popularPrograms": ["International Relations", "Pravo", "Fizika", "Medicina"]
+        },
+        {
+          "name": "University of Basel",
+          "website": "unibas.ch",
+          "url": "https://www.unibas.ch",
+          "programs": "Life Sciences",
+          "ranking": "#95 QS · ~#100 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najstariji u Švajcarskoj (1460). Samo CHF 850/sem. Pharma hub (Novartis, Roche HQ). Erasmus i Nietzsche alumni.",
+          "popularPrograms": ["Life Sciences", "Hemija", "Farmacija", "Istorija"]
         }
       ]
     },
-    "AT": {
-      "name": "Austrija",
-      "mapPosition": { "x": 45.6, "y": 74.3 },
-      "flagCode": "at",
+    "NL": {
+      "name": "Holandija",
+      "mapPosition": { "x": 28.4, "y": 63.5 },
+      "flagCode": "nl",
       "universities": [
         {
-          "name": "University of Vienna",
-          "website": "univie.ac.at",
-          "url": "https://www.univie.ac.at",
-          "programs": "Humanističke",
-          "ranking": "#1 u Austriji",
-          "scores": {
-            "toefl": { "min": 80, "recommended": 90 },
-            "cambridge": { "min": "169+", "recommended": "180+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najveći u nemačkom govornom području.",
-          "popularPrograms": ["Filozofija", "Pravo", "Psihologija"]
-        },
-        {
-          "name": "TU Vienna",
-          "website": "tuwien.at",
-          "url": "https://www.tuwien.at",
+          "name": "TU Delft",
+          "website": "tudelft.nl",
+          "url": "https://www.tudelft.nl",
           "programs": "Inženjering",
-          "ranking": "#2 u Austriji",
+          "ranking": "#47 QS · #57 THE",
           "scores": {
-            "toefl": { "min": 78, "recommended": 90 },
-            "cambridge": { "min": "169+", "recommended": "180+" },
-            "ielts": { "min": "6.0", "recommended": "6.5" }
-          },
-          "description": "Vodeći austrijski tehnički univerzitet.",
-          "popularPrograms": ["Arhitektura", "Informatika", "Mašinstvo"]
-        },
-        {
-          "name": "WU Vienna",
-          "website": "wu.ac.at",
-          "url": "https://www.wu.ac.at",
-          "programs": "Biznis",
-          "ranking": "Top biznis u Austriji",
-          "scores": {
-            "toefl": { "min": 95, "recommended": 105 },
+            "toefl": { "min": 90, "recommended": 100 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Vienna University of Economics.",
-          "popularPrograms": ["MBA", "Finansije", "IR"]
+          "description": "#1 u Holandiji. Vodeći za aeronautiku, arhitekturu, robotiku. €18,750-22,150/god za non-EU. 58+ Master programa na engleskom.",
+          "popularPrograms": ["Aeronautika", "Arhitektura", "Robotika", "Civil Engineering"]
+        },
+        {
+          "name": "University of Amsterdam",
+          "website": "uva.nl",
+          "url": "https://www.uva.nl",
+          "programs": "Svi programi",
+          "ranking": "#53 QS · #58 THE",
+          "scores": {
+            "toefl": { "min": 92, "recommended": 100 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Osnovan 1632. 170+ programa na engleskom — najviše u kontinentalnoj Evropi. €14,000-24,000/god. Centar Amsterdama.",
+          "popularPrograms": ["Komunikacije", "Psihologija", "Ekonomija", "AI"]
+        },
+        {
+          "name": "Utrecht University",
+          "website": "uu.nl",
+          "url": "https://www.uu.nl",
+          "programs": "Istraživanje",
+          "ranking": "#103 QS · #66 THE",
+          "scores": {
+            "toefl": { "min": 93, "recommended": 100 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vodeći za life sciences u Holandiji. 115+ programa na engleskom. €13,000-20,000/god. Prelepi srednjovekovni grad.",
+          "popularPrograms": ["Medicina", "Pravo", "Nauka", "Veterina"]
+        },
+        {
+          "name": "Leiden University",
+          "website": "universiteitleiden.nl",
+          "url": "https://www.universiteitleiden.nl",
+          "programs": "Svi programi",
+          "ranking": "~#120 QS · ~#73 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najstariji u Holandiji (1575). 450 godina tradicije. Einstein predavao. €13,000-20,000/god. Vodeći za pravo i IR.",
+          "popularPrograms": ["Pravo", "IR", "Arheologija", "Lingvistika"]
+        },
+        {
+          "name": "Erasmus University Rotterdam",
+          "website": "eur.nl",
+          "url": "https://www.eur.nl",
+          "programs": "Biznis, Medicina",
+          "ranking": "~#145 QS · ~#77 THE",
+          "scores": {
+            "toefl": { "min": 91, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Rotterdam School of Management — top 10 u Evropi. €15,000-25,000/god. Port city sa jakom ekonomijom.",
+          "popularPrograms": ["MBA", "Ekonomija", "Medicina", "Pravo"]
+        },
+        {
+          "name": "Wageningen University",
+          "website": "wur.nl",
+          "url": "https://www.wur.nl",
+          "programs": "Agriculture, Food",
+          "ranking": "#147 QS · #85 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "#1 U SVETU za Agriculture & Forestry već 9 godina! €18,000-20,000/god. Vodeći za food science i sustainability.",
+          "popularPrograms": ["Agriculture", "Food Science", "Environmental Science", "Nutrition"]
+        },
+        {
+          "name": "Eindhoven University of Technology",
+          "website": "tue.nl",
+          "url": "https://www.tue.nl",
+          "programs": "Inženjering, Tech",
+          "ranking": "~#121 QS · ~#86 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "High Tech Campus — 'Smartest km² in Europe'. €15,000-20,000/god. Philips, ASML, NXP partnerships. Innovation hub.",
+          "popularPrograms": ["Inženjering", "Innovation", "Data Science", "Design"]
+        },
+        {
+          "name": "Maastricht University",
+          "website": "maastrichtuniversity.nl",
+          "url": "https://www.maastrichtuniversity.nl",
+          "programs": "Svi programi",
+          "ranking": "~#180 QS · ~#108 THE",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Pionir Problem-Based Learning metode. 50% međunarodnih studenata. €13,000-21,000/god. Na granici sa Belgijom i Nemačkom.",
+          "popularPrograms": ["Pravo", "Ekonomija", "Psihologija", "European Studies"]
         }
       ]
     },
-    "HU": {
-      "name": "Mađarska",
-      "mapPosition": { "x": 53.1, "y": 74.7 },
-      "flagCode": "hu",
+    "BE": {
+      "name": "Belgija",
+      "mapPosition": { "x": 27.1, "y": 66.6 },
+      "flagCode": "be",
       "universities": [
         {
-          "name": "CEU",
-          "website": "ceu.edu",
-          "url": "https://www.ceu.edu",
-          "programs": "Društvene nauke",
-          "ranking": "Top za društvene nauke",
+          "name": "KU Leuven",
+          "website": "kuleuven.be",
+          "url": "https://www.kuleuven.be",
+          "programs": "Svi programi",
+          "ranking": "#60 QS · #56 THE",
           "scores": {
-            "toefl": { "min": 100, "recommended": 110 },
-            "cambridge": { "min": "185+", "recommended": "193+" },
+            "toefl": { "min": 94, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "7.0", "recommended": "7.5" }
           },
-          "description": "Central European University.",
-          "popularPrograms": ["Političke nauke", "Ekonomija", "IR"]
+          "description": "600 godina u 2025! Najstariji katolički univerzitet. Samo €4,100-9,500/god za non-EU. 85+ programa na engleskom. #1 u Belgiji.",
+          "popularPrograms": ["Inženjering", "Medicina", "Pravo", "Teologija"]
         },
         {
-          "name": "Semmelweis University",
-          "website": "semmelweis.hu",
-          "url": "https://semmelweis.hu",
-          "programs": "Medicina",
-          "ranking": "#1 medicina u Mađarskoj",
+          "name": "Ghent University",
+          "website": "ugent.be",
+          "url": "https://www.ugent.be",
+          "programs": "Svi programi",
+          "ranking": "~#136 QS · ~#98 THE",
           "scores": {
-            "toefl": { "min": 80, "recommended": 90 },
-            "cambridge": { "min": "169+", "recommended": "180+" },
-            "ielts": { "min": "6.0", "recommended": "6.5" }
+            "toefl": { "min": 94, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Vodeći medicinski univerzitet.",
-          "popularPrograms": ["Medicina", "Stomatologija", "Farmacija"]
+          "description": "Samo €4,000-6,500/god! 80+ programa na engleskom. Vodeći za biotehnologiju, veterinu. Prelepi flamanski grad.",
+          "popularPrograms": ["Biotehnologija", "Pravo", "Veterina", "Farmacija"]
         },
         {
-          "name": "BME Budapest",
-          "website": "bme.hu",
-          "url": "https://www.bme.hu",
-          "programs": "Inženjering",
-          "ranking": "#1 tech u Mađarskoj",
+          "name": "UCLouvain",
+          "website": "uclouvain.be",
+          "url": "https://www.uclouvain.be",
+          "programs": "Svi programi",
+          "ranking": "~#157 QS · ~#128 THE",
           "scores": {
-            "toefl": { "min": 75, "recommended": 85 },
-            "cambridge": { "min": "162+", "recommended": "176+" },
-            "ielts": { "min": "5.5", "recommended": "6.5" }
+            "toefl": { "min": 79, "recommended": 90 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Budapest University of Technology.",
-          "popularPrograms": ["Inženjering", "Arhitektura", "IT"]
+          "description": "Najjeftiniji u Belgiji: €835-4,175/god! French-speaking. Jak za filozofiju, development studies. Georges Lemaître (Big Bang) alumni.",
+          "popularPrograms": ["Filozofija", "Development Studies", "Ekonomija", "Pravo"]
+        },
+        {
+          "name": "Vrije Universiteit Brussel",
+          "website": "vub.be",
+          "url": "https://www.vub.be",
+          "programs": "Svi programi",
+          "ranking": "~#230 QS · ~#175 THE",
+          "scores": {
+            "toefl": { "min": 79, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "U Briselu — pored EU institucija. €4,000-6,600/god. Odlično za EU policy, political science. Multikulturalni kampus.",
+          "popularPrograms": ["Političke nauke", "EU Studies", "Komunikacije", "Biznis"]
+        },
+        {
+          "name": "University of Antwerp",
+          "website": "uantwerpen.be",
+          "url": "https://www.uantwerpen.be",
+          "programs": "Svi programi",
+          "ranking": "~#254 QS · ~#162 THE",
+          "scores": {
+            "toefl": { "min": 79, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€4,000-6,500/god. Port city — vodeći za logistiku i maritime. Diamond industry hub. 50+ programa na engleskom.",
+          "popularPrograms": ["Logistika", "Farmacija", "Ekonomija", "Maritime"]
         }
       ]
     },
@@ -863,315 +569,693 @@
           "website": "psl.eu",
           "url": "https://psl.eu",
           "programs": "Svi programi",
-          "ranking": "Top 50 u svetu · #1 FR",
+          "ranking": "#28 QS · ~#45 THE",
           "scores": {
             "toefl": { "min": 95, "recommended": 105 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "7.0", "recommended": "7.5" }
           },
-          "description": "Prestižni pariski univerzitet. #1 od 2021.",
-          "popularPrograms": ["Umetnost", "Nauka", "Inženjering"]
+          "description": "#1 u Francuskoj. 24 Nobelovaca, 12 Fields medaljista. Javni programi samo €3,770/god! Uključuje ENS, Dauphine, Mines Paris.",
+          "popularPrograms": ["Umetnost", "Nauka", "Inženjering", "Ekonomija"]
         },
         {
-          "name": "Institut Polytechnique Paris",
+          "name": "Institut Polytechnique de Paris",
           "website": "ip-paris.fr",
           "url": "https://www.ip-paris.fr",
           "programs": "STEM",
-          "ranking": "Top 50 u svetu",
+          "ranking": "#41 QS · ~#65 THE",
           "scores": {
             "toefl": { "min": 95, "recommended": 105 },
             "cambridge": { "min": "185+", "recommended": "193+" },
             "ielts": { "min": "7.0", "recommended": "7.5" }
           },
-          "description": "Uključuje École Polytechnique. 120ha kampus.",
-          "popularPrograms": ["Inženjering", "Fizika", "Matematika"]
+          "description": "Uključuje École Polytechnique — najselektivnija Grande École. €12,000-18,000/god. 120ha kampus. French elite engineering.",
+          "popularPrograms": ["Inženjering", "Fizika", "Matematika", "Data Science"]
         },
         {
           "name": "Sorbonne University",
           "website": "sorbonne-universite.fr",
           "url": "https://www.sorbonne-universite.fr",
-          "programs": "Humanističke",
-          "ranking": "Top 100 u svetu",
+          "programs": "Humanističke, Nauka",
+          "ranking": "#62 QS · #53 THE",
           "scores": {
             "toefl": { "min": 90, "recommended": 100 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Istorijski pariski univerzitet. 53,400 studenata.",
-          "popularPrograms": ["Književnost", "Istorija", "Filozofija"]
+          "description": "Marie Curie legacy. Samo €3,770/god (public)! 53,400 studenata. Istorijski Quartier Latin. 40+ programa na engleskom.",
+          "popularPrograms": ["Književnost", "Istorija", "Filozofija", "Medicina"]
         },
         {
-          "name": "Paris-Saclay",
+          "name": "Université Paris-Saclay",
           "website": "universite-paris-saclay.fr",
           "url": "https://www.universite-paris-saclay.fr",
           "programs": "STEM",
-          "ranking": "Top 100 u svetu",
+          "ranking": "#73 QS · #78 THE",
           "scores": {
             "toefl": { "min": 90, "recommended": 100 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Jak u nauci i inženjeringu.",
-          "popularPrograms": ["Fizika", "Matematika", "Inženjering"]
+          "description": "Fizika #14 u svetu! Samo €3,770/god. Naučni hub južno od Pariza. 50+ programa na engleskom.",
+          "popularPrograms": ["Fizika", "Matematika", "Inženjering", "Biologija"]
         },
         {
           "name": "Sciences Po",
           "website": "sciencespo.fr",
           "url": "https://www.sciencespo.fr",
           "programs": "Političke nauke",
-          "ranking": "#1 političke nauke EU",
+          "ranking": "#2 za Political Science u svetu",
           "scores": {
             "toefl": { "min": 100, "recommended": 110 },
             "cambridge": { "min": "185+", "recommended": "193+" },
             "ielts": { "min": "7.0", "recommended": "7.5" }
           },
-          "description": "Elitna škola. 14,000 studenata, 50% međunarodnih.",
-          "popularPrograms": ["IR", "Političke nauke", "Pravo"]
+          "description": "Elitna Grande École. €10,000-14,500/god. 50% međunarodnih studenata. 7 kampusa širom Francuske. Pipeline za EU karijere.",
+          "popularPrograms": ["IR", "Političke nauke", "Pravo", "Javne politike"]
         },
         {
           "name": "HEC Paris",
           "website": "hec.edu",
           "url": "https://www.hec.edu",
           "programs": "MBA",
-          "ranking": "#1 MBA Evropa",
+          "ranking": "#1 MBA u Evropi",
           "scores": {
             "toefl": { "min": 100, "recommended": 110 },
             "cambridge": { "min": "185+", "recommended": "193+" },
             "ielts": { "min": "7.0", "recommended": "7.5" }
           },
-          "description": "Elitna biznis škola, #1 MBA u Evropi.",
-          "popularPrograms": ["MBA", "Finansije", "Menadžment"]
+          "description": "Elitna biznis škola. €25,000-55,000/god. Luxury, consulting, finance placements. LVMH, McKinsey recruiting ground.",
+          "popularPrograms": ["MBA", "Finansije", "Menadžment", "Luxury"]
         },
         {
           "name": "INSEAD",
           "website": "insead.edu",
           "url": "https://www.insead.edu",
           "programs": "MBA",
-          "ranking": "#1 Global MBA",
+          "ranking": "#1 Global MBA (FT)",
           "scores": {
             "toefl": { "min": 105, "recommended": 115 },
             "cambridge": { "min": "185+", "recommended": "193+" },
             "ielts": { "min": "7.5", "recommended": "8.0" }
           },
-          "description": "Vodeća svetska biznis škola.",
-          "popularPrograms": ["MBA", "Executive Ed", "Consulting"]
-        }
-      ]
-    },
-    "PT": {
-      "name": "Portugalija",
-      "mapPosition": { "x": 4.3, "y": 89.4 },
-      "flagCode": "pt",
-      "universities": [
-        {
-          "name": "University of Lisbon",
-          "website": "ulisboa.pt",
-          "url": "https://www.ulisboa.pt",
-          "programs": "Svi programi",
-          "ranking": "#1 u Portugaliji",
-          "scores": {
-            "toefl": { "min": 80, "recommended": 90 },
-            "cambridge": { "min": "169+", "recommended": "180+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najveći u Portugaliji. Pristupačno.",
-          "popularPrograms": ["Inženjering", "Arhitektura", "Ekonomija"]
+          "description": "Vodeća svetska biznis škola. Kampusi u Fontainebleau, Singapuru, Abu Dhabiju. 10-mesečni MBA. Top consulting placements.",
+          "popularPrograms": ["MBA", "Executive Education", "Consulting"]
         },
         {
-          "name": "University of Porto",
-          "website": "up.pt",
-          "url": "https://www.up.pt",
-          "programs": "Svi programi",
-          "ranking": "#2 u Portugaliji",
+          "name": "Grenoble Alpes University",
+          "website": "univ-grenoble-alpes.fr",
+          "url": "https://www.univ-grenoble-alpes.fr",
+          "programs": "STEM",
+          "ranking": "~#334 QS · ~#220 THE",
           "scores": {
-            "toefl": { "min": 80, "recommended": 90 },
-            "cambridge": { "min": "169+", "recommended": "180+" },
-            "ielts": { "min": "6.0", "recommended": "6.5" }
-          },
-          "description": "Vodeći istraživački univerzitet.",
-          "popularPrograms": ["Medicina", "Inženjering", "Ekonomija"]
-        },
-        {
-          "name": "Nova SBE",
-          "website": "novasbe.pt",
-          "url": "https://www.novasbe.pt",
-          "programs": "Biznis",
-          "ranking": "Top biznis u Portugaliji",
-          "scores": {
-            "toefl": { "min": 95, "recommended": 105 },
+            "toefl": { "min": 85, "recommended": 95 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Nova School of Business.",
-          "popularPrograms": ["Ekonomija", "Finansije", "Menadžment"]
+          "description": "Samo €3,770/god! Innovation hub u Alpima. GIANT campus. Jak za physics, engineering, AI. Ski resorts na 30 min.",
+          "popularPrograms": ["Fizika", "AI", "Inženjering", "Nauka"]
         }
       ]
     },
-    "ES": {
-      "name": "Španija",
-      "mapPosition": { "x": 11.8, "y": 90.9 },
-      "flagCode": "es",
+    "GB": {
+      "name": "Velika Britanija",
+      "mapPosition": { "x": 16.4, "y": 62.2 },
+      "flagCode": "gb",
       "universities": [
         {
-          "name": "IE Business School",
-          "website": "ie.edu",
-          "url": "https://www.ie.edu",
-          "programs": "MBA",
-          "ranking": "Top 10 MBA u svetu",
+          "name": "University of Oxford",
+          "website": "ox.ac.uk",
+          "url": "https://www.ox.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "#3 QS · #1 THE (9 godina)",
+          "scores": {
+            "toefl": { "min": 110, "recommended": 120 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.5", "recommended": "8.0" }
+          },
+          "description": "73 Nobelovca. Najstariji univerzitet u anglofonom svetu. £29,500-54,500/god. 39 koledža. Hawking, Thatcher, Wilde alumni.",
+          "popularPrograms": ["PPE", "Pravo", "Medicina", "CS", "Filozofija"]
+        },
+        {
+          "name": "University of Cambridge",
+          "website": "cam.ac.uk",
+          "url": "https://www.cam.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "#5 QS · #5 THE",
+          "scores": {
+            "toefl": { "min": 110, "recommended": 120 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.5", "recommended": "8.0" }
+          },
+          "description": "120+ Nobelovaca — više od bilo koje institucije. £24,500-64,000/god. 31 koledž. Newton, Darwin, Hawking legacy.",
+          "popularPrograms": ["Nauka", "Inženjering", "Matematika", "Ekonomija"]
+        },
+        {
+          "name": "Imperial College London",
+          "website": "imperial.ac.uk",
+          "url": "https://www.imperial.ac.uk",
+          "programs": "STEM",
+          "ranking": "#2 QS · #8-9 THE",
           "scores": {
             "toefl": { "min": 100, "recommended": 110 },
             "cambridge": { "min": "185+", "recommended": "193+" },
             "ielts": { "min": "7.0", "recommended": "7.5" }
           },
-          "description": "Vodeća biznis škola u Madridu.",
-          "popularPrograms": ["MBA", "Preduzetništvo", "Tech"]
+          "description": "STEM focused. £35,100-55,000/god. South Kensington, London. 14 Nobelovaca. Top za medicinu, engineering, computing.",
+          "popularPrograms": ["Inženjering", "CS", "Medicina", "Biznis"]
         },
         {
-          "name": "ESADE Barcelona",
-          "website": "esade.edu",
-          "url": "https://www.esade.edu",
-          "programs": "MBA",
-          "ranking": "Top 15 MBA u svetu",
-          "scores": {
-            "toefl": { "min": 100, "recommended": 110 },
-            "cambridge": { "min": "185+", "recommended": "193+" },
-            "ielts": { "min": "7.0", "recommended": "7.5" }
-          },
-          "description": "Prestižna katalonska biznis škola.",
-          "popularPrograms": ["MBA", "Pravo", "Consulting"]
-        },
-        {
-          "name": "Pompeu Fabra",
-          "website": "upf.edu",
-          "url": "https://www.upf.edu",
+          "name": "UCL",
+          "website": "ucl.ac.uk",
+          "url": "https://www.ucl.ac.uk",
           "programs": "Svi programi",
-          "ranking": "Top 100 u svetu",
-          "scores": {
-            "toefl": { "min": 87, "recommended": 95 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najprestižniji u Španiji.",
-          "popularPrograms": ["Ekonomija", "Biomedicina", "Komunikacije"]
-        },
-        {
-          "name": "University of Barcelona",
-          "website": "ub.edu",
-          "url": "https://www.ub.edu",
-          "programs": "Svi programi",
-          "ranking": "#2 u Španiji",
-          "scores": {
-            "toefl": { "min": 87, "recommended": 95 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Najveći univerzitet u Kataloniji.",
-          "popularPrograms": ["Medicina", "Pravo", "Ekonomija"]
-        },
-        {
-          "name": "UC3M Madrid",
-          "website": "uc3m.es",
-          "url": "https://www.uc3m.es",
-          "programs": "Svi programi",
-          "ranking": "#3 u Španiji",
-          "scores": {
-            "toefl": { "min": 87, "recommended": 95 },
-            "cambridge": { "min": "176+", "recommended": "185+" },
-            "ielts": { "min": "6.5", "recommended": "7.0" }
-          },
-          "description": "Universidad Carlos III de Madrid. Jak za ekonomiju.",
-          "popularPrograms": ["Ekonomija", "Pravo", "Inženjering"]
-        }
-      ]
-    },
-    "IT": {
-      "name": "Italija",
-      "mapPosition": { "x": 38, "y": 79.7 },
-      "flagCode": "it",
-      "universities": [
-        {
-          "name": "Bocconi University",
-          "website": "unibocconi.eu",
-          "url": "https://www.unibocconi.eu",
-          "programs": "Biznis",
-          "ranking": "#1 biznis u Italiji",
+          "ranking": "#9 QS · #22 THE",
           "scores": {
             "toefl": { "min": 96, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Najveći UK univerzitet. £26,200-52,000/god. Centar Londona. Osnovan za one kojima je Oxford/Cambridge bio zatvoren. 1000+ programa.",
+          "popularPrograms": ["Arhitektura", "Pravo", "Medicina", "Ekonomija"]
+        },
+        {
+          "name": "LSE",
+          "website": "lse.ac.uk",
+          "url": "https://www.lse.ac.uk",
+          "programs": "Društvene nauke",
+          "ranking": "~#50 QS · ~#46 THE",
+          "scores": {
+            "toefl": { "min": 107, "recommended": 115 },
             "cambridge": { "min": "185+", "recommended": "193+" },
             "ielts": { "min": "7.0", "recommended": "7.5" }
           },
-          "description": "Elitna biznis škola u Milanu.",
-          "popularPrograms": ["Ekonomija", "Finansije", "Menadžment"]
+          "description": "London School of Economics. 72% međunarodnih studenata. £24,000-52,000/god. 18 Nobelovaca. Finance i policy elite.",
+          "popularPrograms": ["Ekonomija", "Finansije", "IR", "Sociologija"]
         },
         {
-          "name": "Politecnico di Milano",
-          "website": "polimi.it",
-          "url": "https://www.polimi.it",
-          "programs": "Inženjering",
-          "ranking": "#1 tech u Italiji",
-          "scores": {
-            "toefl": { "min": 80, "recommended": 90 },
-            "cambridge": { "min": "169+", "recommended": "180+" },
-            "ielts": { "min": "6.0", "recommended": "6.5" }
-          },
-          "description": "Vodeći za dizajn i inženjering.",
-          "popularPrograms": ["Arhitektura", "Dizajn", "Inženjering"]
-        },
-        {
-          "name": "University of Bologna",
-          "website": "unibo.it",
-          "url": "https://www.unibo.it",
+          "name": "University of Edinburgh",
+          "website": "ed.ac.uk",
+          "url": "https://www.ed.ac.uk",
           "programs": "Svi programi",
-          "ranking": "#2 u Italiji",
+          "ranking": "#27 QS · ~#27 THE",
           "scores": {
-            "toefl": { "min": 80, "recommended": 90 },
-            "cambridge": { "min": "169+", "recommended": "180+" },
-            "ielts": { "min": "6.0", "recommended": "6.5" }
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
           },
-          "description": "Najstariji univerzitet na svetu (1088).",
-          "popularPrograms": ["Pravo", "Medicina", "Umetnost"]
+          "description": "Top 5 UK za research. £24,500-35,000/god. Prelepi škotski grad. Vodeći za AI u Evropi. Darwin, Hume, Conan Doyle alumni.",
+          "popularPrograms": ["AI", "Medicina", "Pravo", "Informatika"]
         },
         {
-          "name": "Sapienza Rome",
-          "website": "uniroma1.it",
-          "url": "https://www.uniroma1.it",
+          "name": "University of Manchester",
+          "website": "manchester.ac.uk",
+          "url": "https://www.manchester.ac.uk",
           "programs": "Svi programi",
-          "ranking": "#3 u Italiji",
-          "scores": {
-            "toefl": { "min": 80, "recommended": 90 },
-            "cambridge": { "min": "169+", "recommended": "180+" },
-            "ielts": { "min": "6.0", "recommended": "6.5" }
-          },
-          "description": "Najveći univerzitet u Evropi.",
-          "popularPrograms": ["Medicina", "Inženjering", "Pravo"]
-        },
-        {
-          "name": "University of Padua",
-          "website": "unipd.it",
-          "url": "https://www.unipd.it",
-          "programs": "Svi programi",
-          "ranking": "#4 u Italiji",
-          "scores": {
-            "toefl": { "min": 80, "recommended": 90 },
-            "cambridge": { "min": "169+", "recommended": "180+" },
-            "ielts": { "min": "6.0", "recommended": "6.5" }
-          },
-          "description": "Osnovan 1222. Galileo predavao.",
-          "popularPrograms": ["Medicina", "Pravo", "Psihologija"]
-        },
-        {
-          "name": "LUISS Rome",
-          "website": "luiss.it",
-          "url": "https://www.luiss.it",
-          "programs": "Biznis/Pravo",
-          "ranking": "Top privatni u Italiji",
+          "ranking": "#34 QS · ~#50 THE",
           "scores": {
             "toefl": { "min": 90, "recommended": 100 },
             "cambridge": { "min": "176+", "recommended": "185+" },
             "ielts": { "min": "6.5", "recommended": "7.0" }
           },
-          "description": "Elitni privatni univerzitet. Jak za networking.",
-          "popularPrograms": ["Biznis", "Pravo", "Političke nauke"]
+          "description": "#1 za societal impact. £23,000-48,000/god. 25 Nobelovaca. Turing radio ovde. Largest single-site campus UK.",
+          "popularPrograms": ["Fizika", "Inženjering", "Biznis", "CS"]
+        },
+        {
+          "name": "King's College London",
+          "website": "kcl.ac.uk",
+          "url": "https://www.kcl.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "~#40 QS · ~#36 THE",
+          "scores": {
+            "toefl": { "min": 96, "recommended": 105 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Centar Londona, Strand kampus. £24,000-52,000/god. Vodeći za medicinu i pravo. Florence Nightingale alumni.",
+          "popularPrograms": ["Pravo", "Medicina", "Humanities", "War Studies"]
+        },
+        {
+          "name": "University of Bristol",
+          "website": "bristol.ac.uk",
+          "url": "https://www.bristol.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "~#55 QS · ~#76 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Russell Group. £23,000-32,000/god. Prelepi grad. Pionir rodne ravnopravnosti (1876). Jak za engineering, sciences.",
+          "popularPrograms": ["Inženjering", "Pravo", "Medicina", "Vetrina"]
+        },
+        {
+          "name": "University of Glasgow",
+          "website": "gla.ac.uk",
+          "url": "https://www.gla.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "~#76 QS · ~#82 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Osnovan 1451 — četvrti najstariji u UK. £22,000-32,000/god. Adam Smith alumni. Gothic arhitektura. Affordable Scottish city.",
+          "popularPrograms": ["Medicina", "Pravo", "Inženjering", "Veterina"]
+        },
+        {
+          "name": "University of Warwick",
+          "website": "warwick.ac.uk",
+          "url": "https://warwick.ac.uk",
+          "programs": "Biznis, Ekonomija",
+          "ranking": "~#69 QS · ~#65 THE",
+          "scores": {
+            "toefl": { "min": 92, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Warwick Business School — top 20 u svetu. £23,000-35,000/god. Strong industry links. 29,000 studenata.",
+          "popularPrograms": ["WBS", "Ekonomija", "Matematika", "CS"]
+        },
+        {
+          "name": "Durham University",
+          "website": "durham.ac.uk",
+          "url": "https://www.durham.ac.uk",
+          "programs": "Svi programi",
+          "ranking": "~#77 QS · ~#149 THE",
+          "scores": {
+            "toefl": { "min": 92, "recommended": 102 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Collegiate system kao Oxbridge. £23,000-30,000/god. UNESCO World Heritage site. Jak za humanities, sciences.",
+          "popularPrograms": ["Pravo", "Istorija", "Fizika", "Teologija"]
+        }
+      ]
+    },
+    "IE": {
+      "name": "Irska",
+      "mapPosition": { "x": 4.9, "y": 60.6 },
+      "flagCode": "ie",
+      "universities": [
+        {
+          "name": "Trinity College Dublin",
+          "website": "tcd.ie",
+          "url": "https://www.tcd.ie",
+          "programs": "Svi programi",
+          "ranking": "#75 QS · ~#173 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "#1 u Irskoj. Oscar Wilde, Beckett alumni. €13,758-29,548/god. Book of Kells. Centar Dablina. 350+ programa.",
+          "popularPrograms": ["CS", "Pravo", "Medicina", "Književnost"]
+        },
+        {
+          "name": "University College Dublin",
+          "website": "ucd.ie",
+          "url": "https://www.ucd.ie",
+          "programs": "Svi programi",
+          "ranking": "#118 QS · #201-250 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najveći u Irskoj. €16,800-30,000/god. Silicon Docks veze — Google, Meta, LinkedIn. James Joyce alumni. 300+ programa.",
+          "popularPrograms": ["Biznis", "Veterina", "Arhitektura", "CS"]
+        },
+        {
+          "name": "University College Cork",
+          "website": "ucc.ie",
+          "url": "https://www.ucc.ie",
+          "programs": "Svi programi",
+          "ranking": "#246 QS · #301-350 THE",
+          "scores": {
+            "toefl": { "min": 88, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€14,000-35,000/god. Prelepi južni grad. Jak za farmaciju, nauke, food science. 5x Irish University of the Year.",
+          "popularPrograms": ["Farmacija", "Food Science", "Medicina", "Pravo"]
+        },
+        {
+          "name": "University of Galway",
+          "website": "universityofgalway.ie",
+          "url": "https://www.universityofgalway.ie",
+          "programs": "Svi programi",
+          "ranking": "#284 QS · #301-350 THE",
+          "scores": {
+            "toefl": { "min": 88, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€14,000-25,000/god. Na obali Atlantika. Jak za marine science, engineering. Irish language campus. 150+ programa.",
+          "popularPrograms": ["Inženjering", "Marine Science", "Medicina", "Arts"]
+        },
+        {
+          "name": "Dublin City University",
+          "website": "dcu.ie",
+          "url": "https://www.dcu.ie",
+          "programs": "Biznis, Komunikacije",
+          "ranking": "#410 QS · #401-500 THE",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 92 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€12,600-20,000/god. Najmlađi irski univerzitet. Jak industry links. Vodeći za communications, business, education.",
+          "popularPrograms": ["Biznis", "Komunikacije", "Obrazovanje", "Computing"]
+        }
+      ]
+    },
+    "NO": {
+      "name": "Norveška",
+      "mapPosition": { "x": 35.6, "y": 36.9 },
+      "flagCode": "no",
+      "universities": [
+        {
+          "name": "University of Oslo",
+          "website": "uio.no",
+          "url": "https://www.uio.no",
+          "programs": "Istraživanje",
+          "ranking": "#119 QS · #116 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "5 Nobelovaca. €16,000-22,000/god od 2023 za non-EU (bilo besplatno). Najveći u Norveškoj. 40+ Master na engleskom.",
+          "popularPrograms": ["Pravo", "Medicina", "Društvene nauke", "Nauka"]
+        },
+        {
+          "name": "NTNU Trondheim",
+          "website": "ntnu.edu",
+          "url": "https://www.ntnu.edu",
+          "programs": "Inženjering",
+          "ranking": "#264 QS · #301-350 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vodeći tehnički u Norveškoj. €12,000-22,000/god. 40+ programa na engleskom. Oil & gas industry veze. Student city.",
+          "popularPrograms": ["Inženjering", "IT", "Arhitektura", "Marine Tech"]
+        },
+        {
+          "name": "University of Bergen",
+          "website": "uib.no",
+          "url": "https://www.uib.no",
+          "programs": "Marine, Klima",
+          "ranking": "#291 QS · #251-300 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€14,000-22,000/god. Centar za marine biology i climate research. UNESCO Bryggen. Prelepi fjord grad.",
+          "popularPrograms": ["Marine Biology", "Climate Science", "Medicina", "Pravo"]
+        }
+      ]
+    },
+    "SE": {
+      "name": "Švedska",
+      "mapPosition": { "x": 44.7, "y": 42.1 },
+      "flagCode": "se",
+      "universities": [
+        {
+          "name": "Lund University",
+          "website": "lu.se",
+          "url": "https://www.lu.se",
+          "programs": "Svi programi",
+          "ranking": "#75 QS",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najprestižniji u Skandinaviji. €9,000-26,000/god. Lund Global Scholarship dostupna. 47,000 studenata. Osnovan 1666.",
+          "popularPrograms": ["Medicina", "Pravo", "Ekonomija", "Inženjering"]
+        },
+        {
+          "name": "KTH Royal Institute of Technology",
+          "website": "kth.se",
+          "url": "https://www.kth.se",
+          "programs": "Inženjering",
+          "ranking": "#74 QS",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Vodeći tehnički u Skandinaviji. €14,000-28,000/god. Ericsson, Spotify veze. Stockholm — startup hub Evrope.",
+          "popularPrograms": ["Inženjering", "IT", "Biotehnologija", "Arhitektura"]
+        },
+        {
+          "name": "Uppsala University",
+          "website": "uu.se",
+          "url": "https://www.uu.se",
+          "programs": "Istraživanje",
+          "ranking": "#103 QS",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najstariji u Skandinaviji (1477). €9,000-18,000/god. 8 Nobelovaca. Linnaeus, Celsius alumni. Prelepi student grad.",
+          "popularPrograms": ["Nauka", "Medicina", "Pravo", "Istorija"]
+        },
+        {
+          "name": "Stockholm University",
+          "website": "su.se",
+          "url": "https://www.su.se",
+          "programs": "Nauka, Humanističke",
+          "ranking": "#128 QS",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€8,000-13,000/god. U glavnom gradu. National park kampus. Jak za environmental science, ekonomiju.",
+          "popularPrograms": ["Ekonomija", "Pravo", "Environmental Science", "Psihologija"]
+        },
+        {
+          "name": "Chalmers University of Technology",
+          "website": "chalmers.se",
+          "url": "https://www.chalmers.se",
+          "programs": "Inženjering",
+          "ranking": "#139 QS",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€13,500-15,500/god. Göteborg — Volvo, SKF, AstraZeneca. IPOET Scholarship dostupna. Jak industry placements.",
+          "popularPrograms": ["Automotive", "Inženjering", "Arhitektura", "IT"]
+        }
+      ]
+    },
+    "FI": {
+      "name": "Finska",
+      "mapPosition": { "x": 64.9, "y": 34.3 },
+      "flagCode": "fi",
+      "universities": [
+        {
+          "name": "University of Helsinki",
+          "website": "helsinki.fi",
+          "url": "https://www.helsinki.fi",
+          "programs": "Istraživanje",
+          "ranking": "#117 QS",
+          "scores": {
+            "toefl": { "min": 92, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€13,000-18,000/god. Helsinki Scholarship može pokriti 100% + €10,000! #1 za obrazovanje u svetu. Finski sistem obrazovanja.",
+          "popularPrograms": ["Obrazovanje", "Medicina", "Pravo", "Nauka"]
+        },
+        {
+          "name": "Aalto University",
+          "website": "aalto.fi",
+          "url": "https://www.aalto.fi",
+          "programs": "Dizajn, Tech, Biznis",
+          "ranking": "#113 QS",
+          "scores": {
+            "toefl": { "min": 92, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€12,000-17,000/god. Aalto Scholarship pokriva 50-100%. Fusion of art, business, tech. Nokia, Supercell alumni.",
+          "popularPrograms": ["Dizajn", "Arhitektura", "IT", "Biznis"]
+        },
+        {
+          "name": "Tampere University",
+          "website": "tuni.fi",
+          "url": "https://www.tuni.fi",
+          "programs": "Tech, Health",
+          "ranking": "~#400-450 QS",
+          "scores": {
+            "toefl": { "min": 85, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€10,000-15,000/god. Global Student Award: 100% + €7,000/god! Multidisciplinary. Student-friendly grad.",
+          "popularPrograms": ["Health Tech", "Inženjering", "Društvene nauke", "Obrazovanje"]
+        }
+      ]
+    },
+    "DK": {
+      "name": "Danska",
+      "mapPosition": { "x": 35.1, "y": 52.3 },
+      "flagCode": "dk",
+      "universities": [
+        {
+          "name": "University of Copenhagen",
+          "website": "ku.dk",
+          "url": "https://www.ku.dk",
+          "programs": "Istraživanje",
+          "ranking": "#100 QS",
+          "scores": {
+            "toefl": { "min": 83, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "9 Nobelovaca. €10,000-17,000/god. Danish Government Scholarship: full tuition + stipend! Niels Bohr alumni.",
+          "popularPrograms": ["Medicina", "Pravo", "Prirodne nauke", "Ekonomija"]
+        },
+        {
+          "name": "DTU - Technical University of Denmark",
+          "website": "dtu.dk",
+          "url": "https://www.dtu.dk",
+          "programs": "Inženjering",
+          "ranking": "#109 QS",
+          "scores": {
+            "toefl": { "min": 88, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€15,000/god. Top za sustainable energy. Vestas, Ørsted, Novo Nordisk veze. Copenhagen 30 min away.",
+          "popularPrograms": ["Inženjering", "IT", "Energetika", "Biotehnologija"]
+        },
+        {
+          "name": "Aarhus University",
+          "website": "au.dk",
+          "url": "https://www.au.dk",
+          "programs": "Svi programi",
+          "ranking": "#144 QS",
+          "scores": {
+            "toefl": { "min": 83, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€8,000-15,300/god. Drugi grad Danske. Danish Government Scholarship dostupna. Jak za political science, business.",
+          "popularPrograms": ["Političke nauke", "Biznis", "Pravo", "Nauka"]
+        },
+        {
+          "name": "Copenhagen Business School",
+          "website": "cbs.dk",
+          "url": "https://www.cbs.dk",
+          "programs": "Biznis",
+          "ranking": "Triple accredited",
+          "scores": {
+            "toefl": { "min": 91, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Top biznis škola Skandinavije. €12,000-20,000/god. 22,000 studenata. Consulting, finance placements.",
+          "popularPrograms": ["MBA", "Finansije", "Marketing", "Strategy"]
+        }
+      ]
+    },
+    "HU": {
+      "name": "Mađarska",
+      "mapPosition": { "x": 53.1, "y": 74.7 },
+      "flagCode": "hu",
+      "universities": [
+        {
+          "name": "ELTE Budapest",
+          "website": "elte.hu",
+          "url": "https://www.elte.hu",
+          "programs": "Svi programi",
+          "ranking": "#564-584 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "7 Nobelovaca. €2,259-5,000/god. Lingvistika #151-200 globalno. STIPENDIUM HUNGARICUM dostupna za Srbe — potpuno besplatno!",
+          "popularPrograms": ["Lingvistika", "Matematika", "Psihologija", "Pravo"]
+        },
+        {
+          "name": "Semmelweis University",
+          "website": "semmelweis.hu",
+          "url": "https://semmelweis.hu",
+          "programs": "Medicina",
+          "ranking": "#251-300 (Medicine) · Top 250 THE",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Top evropska medicinska škola. €19,900/god (medicina). Stipendium Hungaricum pokriva! WHO/GMC priznata. 200+ godina tradicije.",
+          "popularPrograms": ["Medicina", "Stomatologija", "Farmacija", "Zdravstvo"]
+        },
+        {
+          "name": "University of Debrecen",
+          "website": "unideb.hu",
+          "url": "https://www.unideb.hu",
+          "programs": "Svi programi",
+          "ranking": "#563-574 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€4,000-16,200/god. 80+ programa na engleskom. Stipendium dostupna. Jak za medicinu i agriculture.",
+          "popularPrograms": ["Medicina", "Agriculture", "IT", "Biznis"]
+        },
+        {
+          "name": "University of Szeged",
+          "website": "u-szeged.hu",
+          "url": "https://u-szeged.hu",
+          "programs": "Medicina, Nauka",
+          "ranking": "#570-597 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€4,000-16,000/god. Centar za laser physics. Stipendium dostupna. Nobelovac Albert Szent-Györgyi alumni.",
+          "popularPrograms": ["Medicina", "Fizika", "Pravo", "Nauka"]
+        },
+        {
+          "name": "BME Budapest",
+          "website": "bme.hu",
+          "url": "https://www.bme.hu",
+          "programs": "Inženjering",
+          "ranking": "#711-730 QS",
+          "scores": {
+            "toefl": { "min": 75, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Budapest University of Technology. €3,500-5,000/god. Stipendium dostupna. Vodeći za inženjering u regionu.",
+          "popularPrograms": ["Inženjering", "Arhitektura", "IT", "Matematika"]
+        },
+        {
+          "name": "Central European University",
+          "website": "ceu.edu",
+          "url": "https://www.ceu.edu",
+          "programs": "Društvene nauke",
+          "ranking": "#201-250 QS · #201-250 THE",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Soros-founded. €15,000-20,000/god ALI scholarships dostupne. Vodeći za policy, political science, economics u CEE regionu.",
+          "popularPrograms": ["Političke nauke", "Ekonomija", "IR", "Public Policy"]
         }
       ]
     },
@@ -1185,42 +1269,70 @@
           "website": "uw.edu.pl",
           "url": "https://www.uw.edu.pl",
           "programs": "Svi programi",
-          "ranking": "#1 u Poljskoj",
+          "ranking": "#258-271 QS",
           "scores": {
             "toefl": { "min": 80, "recommended": 90 },
             "cambridge": { "min": "169+", "recommended": "180+" },
             "ielts": { "min": "6.0", "recommended": "6.5" }
           },
-          "description": "Najveći univerzitet u Poljskoj.",
-          "popularPrograms": ["Pravo", "Ekonomija", "IR"]
+          "description": "#1 u Poljskoj. €2,000-4,000/god. NAWA Banach Scholarship: Srbija izričito eligible! 44+ programa na engleskom.",
+          "popularPrograms": ["Pravo", "Ekonomija", "IR", "Psihologija"]
         },
         {
           "name": "Jagiellonian University",
           "website": "uj.edu.pl",
           "url": "https://www.uj.edu.pl",
           "programs": "Svi programi",
-          "ranking": "#2 u Poljskoj",
+          "ranking": "#303-312 QS",
           "scores": {
             "toefl": { "min": 80, "recommended": 90 },
             "cambridge": { "min": "169+", "recommended": "180+" },
             "ielts": { "min": "6.0", "recommended": "6.5" }
           },
-          "description": "Najstariji u Poljskoj (1364). Krakov.",
-          "popularPrograms": ["Medicina", "Pravo", "Filozofija"]
+          "description": "Najstariji u Poljskoj (1364). €3,500-8,500/god. Krakov — najlepši grad Poljske. Copernicus, Pope John Paul II alumni.",
+          "popularPrograms": ["Medicina", "Pravo", "Filozofija", "Istorija"]
         },
         {
           "name": "Warsaw University of Technology",
           "website": "pw.edu.pl",
           "url": "https://www.pw.edu.pl",
           "programs": "Inženjering",
-          "ranking": "#3 u Poljskoj",
+          "ranking": "#501-550 QS",
           "scores": {
             "toefl": { "min": 75, "recommended": 85 },
             "cambridge": { "min": "162+", "recommended": "176+" },
             "ielts": { "min": "5.5", "recommended": "6.5" }
           },
-          "description": "Vodeći tehnički univerzitet.",
-          "popularPrograms": ["Inženjering", "IT", "Arhitektura"]
+          "description": "€2,000-4,000/god. Vodeći tehnički u Poljskoj. 20+ programa na engleskom. Aerospace jak.",
+          "popularPrograms": ["Inženjering", "IT", "Arhitektura", "Aerospace"]
+        },
+        {
+          "name": "AGH Kraków",
+          "website": "agh.edu.pl",
+          "url": "https://www.agh.edu.pl",
+          "programs": "Inženjering, Mining",
+          "ranking": "#801-850 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€2,000-3,500/god. Mining #35 globalno! Metallurgy jak. Krakov lokacija.",
+          "popularPrograms": ["Mining", "Metalurgija", "IT", "Inženjering"]
+        },
+        {
+          "name": "Medical University of Warsaw",
+          "website": "wum.edu.pl",
+          "url": "https://www.wum.edu.pl",
+          "programs": "Medicina",
+          "ranking": "#401-450 (Medicine)",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "€11,500-20,000/god. WHO/GMC accredited. NAWA scholarship moguća. Top za medicinu u CEE.",
+          "popularPrograms": ["Medicina", "Stomatologija", "Farmacija"]
         }
       ]
     },
@@ -1234,28 +1346,448 @@
           "website": "cuni.cz",
           "url": "https://cuni.cz",
           "programs": "Svi programi",
-          "ranking": "#1 u Češkoj",
+          "ranking": "#265 QS · #301-350 THE",
           "scores": {
             "toefl": { "min": 80, "recommended": 90 },
             "cambridge": { "min": "169+", "recommended": "180+" },
             "ielts": { "min": "6.0", "recommended": "6.5" }
           },
-          "description": "Najstariji univerzitet u Centralnoj Evropi (1348).",
-          "popularPrograms": ["Medicina", "Pravo", "Filozofija"]
+          "description": "Najstariji u Centralnoj Evropi (1348)! €3,000-12,000/god za english programe. BESPLATNO na češkom! 178+ doktorskih programa.",
+          "popularPrograms": ["Medicina", "Pravo", "Filozofija", "Nauka"]
         },
         {
           "name": "Czech Technical University",
           "website": "cvut.cz",
           "url": "https://www.cvut.cz",
           "programs": "Inženjering",
-          "ranking": "#2 u Češkoj",
+          "ranking": "#401-450 QS",
           "scores": {
             "toefl": { "min": 75, "recommended": 85 },
             "cambridge": { "min": "162+", "recommended": "176+" },
             "ielts": { "min": "5.5", "recommended": "6.5" }
           },
-          "description": "CTU Prague. Vodeći za inženjering.",
-          "popularPrograms": ["Inženjering", "Arhitektura", "IT"]
+          "description": "CTU Prague. €3,500-5,000/god. Vodeći za inženjering. Nuclear physics jak. Prelepi Prag.",
+          "popularPrograms": ["Inženjering", "Arhitektura", "IT", "Nuklearna fizika"]
+        },
+        {
+          "name": "Masaryk University",
+          "website": "muni.cz",
+          "url": "https://www.muni.cz",
+          "programs": "Svi programi",
+          "ranking": "#651-700 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€3,000-10,000/god. Brno — tech hub. Jak za informatiku, social sciences. Mlad, dinamičan grad.",
+          "popularPrograms": ["Informatika", "Medicina", "Pravo", "Društvene nauke"]
+        },
+        {
+          "name": "Brno University of Technology",
+          "website": "vut.cz",
+          "url": "https://www.vut.cz",
+          "programs": "Inženjering",
+          "ranking": "#751-800 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€2,500-4,000/god. IT hub Brno. Jak za arhitekturu i inženjering. Affordable student living.",
+          "popularPrograms": ["IT", "Arhitektura", "Inženjering", "Elektrotehnika"]
+        }
+      ]
+    },
+    "IT": {
+      "name": "Italija",
+      "mapPosition": { "x": 38, "y": 79.7 },
+      "flagCode": "it",
+      "universities": [
+        {
+          "name": "Politecnico di Milano",
+          "website": "polimi.it",
+          "url": "https://www.polimi.it",
+          "programs": "Inženjering, Dizajn",
+          "ranking": "#98 QS · #201-250 THE",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Engineering #21, Architecture #7, Design #6 U SVETU! €3,800-4,200/god. 42+ Master na engleskom. Milano fashion & design capital.",
+          "popularPrograms": ["Arhitektura", "Dizajn", "Inženjering", "Fashion"]
+        },
+        {
+          "name": "University of Bologna",
+          "website": "unibo.it",
+          "url": "https://www.unibo.it",
+          "programs": "Svi programi",
+          "ranking": "#146 QS · #161 THE",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "NAJSTARIJI UNIVERZITET NA SVETU (1088)! €1,000-3,000/god (income-based). Dante, Petrarch, Copernicus alumni. 50+ Master na engleskom.",
+          "popularPrograms": ["Pravo", "Medicina", "Umetnost", "Ekonomija"]
+        },
+        {
+          "name": "Sapienza University of Rome",
+          "website": "uniroma1.it",
+          "url": "https://www.uniroma1.it",
+          "programs": "Svi programi",
+          "ranking": "#134 QS · #201-250 THE",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "NAJVEĆI UNIVERZITET U EVROPI! €300-1,500/god (income-based može biti skoro besplatno!). 59 programa na engleskom. Rim.",
+          "popularPrograms": ["Klasika", "Arheologija", "Medicina", "Inženjering"]
+        },
+        {
+          "name": "University of Padua",
+          "website": "unipd.it",
+          "url": "https://www.unipd.it",
+          "programs": "Svi programi",
+          "ranking": "#216 QS · #176 THE",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "Osnovan 1222. Galileo predavao ovde 18 godina! €500-3,000/god. 40+ programa na engleskom. Prelepi Veneto region.",
+          "popularPrograms": ["Medicina", "Pravo", "Psihologija", "Nauka"]
+        },
+        {
+          "name": "University of Milan",
+          "website": "unimi.it",
+          "url": "https://www.unimi.it",
+          "programs": "Svi programi",
+          "ranking": "#341 QS · #301-350 THE",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "€156-2,500/god (može biti skoro besplatno!). 20+ Master na engleskom. Milano — fashion, finance, media capital.",
+          "popularPrograms": ["Life Sciences", "Humanities", "Pravo", "Medicina"]
+        },
+        {
+          "name": "Bocconi University",
+          "website": "unibocconi.eu",
+          "url": "https://www.unibocconi.eu",
+          "programs": "Biznis, Ekonomija",
+          "ranking": "#43 (Business) · Finance #5, Economics #8",
+          "scores": {
+            "toefl": { "min": 96, "recommended": 105 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Elitna biznis škola. €13,000-15,000/god. Svi programi na engleskom. Top consulting, finance placements. Milano centar.",
+          "popularPrograms": ["Ekonomija", "Finansije", "Menadžment", "Pravo"]
+        },
+        {
+          "name": "Politecnico di Torino",
+          "website": "polito.it",
+          "url": "https://www.polito.it",
+          "programs": "Inženjering",
+          "ranking": "#243 QS · #301-350 THE",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "€2,500-3,500/god. FIAT, Ferrari, Maserati veze. Automotive engineering centar Italije. 25+ Master na engleskom.",
+          "popularPrograms": ["Automotive", "Inženjering", "Arhitektura", "Dizajn"]
+        },
+        {
+          "name": "University of Trento",
+          "website": "unitn.it",
+          "url": "https://www.unitn.it",
+          "programs": "AI, Sustainability",
+          "ranking": "#227 QS",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "€1,500-4,000/god. Vodeći za AI i sustainability u Italiji. Prelepi alpski grad. 15+ programa na engleskom.",
+          "popularPrograms": ["AI", "Sustainability", "Cognitive Science", "Ekonomija"]
+        }
+      ]
+    },
+    "ES": {
+      "name": "Španija",
+      "mapPosition": { "x": 11.8, "y": 90.9 },
+      "flagCode": "es",
+      "universities": [
+        {
+          "name": "University of Barcelona",
+          "website": "ub.edu",
+          "url": "https://www.ub.edu",
+          "programs": "Svi programi",
+          "ranking": "#152 QS · #153 THE",
+          "scores": {
+            "toefl": { "min": 87, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "#1 u Španiji. €3,000-6,000/god. Najveći u Kataloniji. Prelepa Barselona. Jak za medicinu, farmaciju.",
+          "popularPrograms": ["Medicina", "Pravo", "Ekonomija", "Farmacija"]
+        },
+        {
+          "name": "Autonomous University of Barcelona",
+          "website": "uab.cat",
+          "url": "https://www.uab.cat",
+          "programs": "Svi programi",
+          "ranking": "#172 QS · #168 THE",
+          "scores": {
+            "toefl": { "min": 87, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "QS 'Most Improved'. €2,500-5,500/god. Campus Bellaterra. Jak za ekonomiju, CS, veterinu.",
+          "popularPrograms": ["Ekonomija", "CS", "Veterina", "Komunikacije"]
+        },
+        {
+          "name": "Autonomous University of Madrid",
+          "website": "uam.es",
+          "url": "https://www.uam.es",
+          "programs": "Svi programi",
+          "ranking": "#195 QS · #167 THE",
+          "scores": {
+            "toefl": { "min": 87, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€3,000-5,500/god. Top za physics, biology u Španiji. Green campus. Madrid cost of living niži od Barselone.",
+          "popularPrograms": ["Fizika", "Biologija", "Pravo", "Ekonomija"]
+        },
+        {
+          "name": "Pompeu Fabra University",
+          "website": "upf.edu",
+          "url": "https://www.upf.edu",
+          "programs": "Ekonomija, Biomedicina",
+          "ranking": "#281 QS · #201-250 THE",
+          "scores": {
+            "toefl": { "min": 87, "recommended": 95 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Ekonomija #30 u svetu! €3,500-7,500/god. Najmlađi ali najprestižniji. Barcelona beach campus.",
+          "popularPrograms": ["Ekonomija", "Biomedicina", "Komunikacije", "Pravo"]
+        },
+        {
+          "name": "IE University",
+          "website": "ie.edu",
+          "url": "https://www.ie.edu",
+          "programs": "MBA, Tech",
+          "ranking": "Top 10 MBA globalno",
+          "scores": {
+            "toefl": { "min": 100, "recommended": 110 },
+            "cambridge": { "min": "185+", "recommended": "193+" },
+            "ielts": { "min": "7.0", "recommended": "7.5" }
+          },
+          "description": "Madrid. €22,000-85,000/god. Innovation-focused. Jak za tech entrepreneurship. All English.",
+          "popularPrograms": ["MBA", "Preduzetništvo", "Tech", "Pravo"]
+        }
+      ]
+    },
+    "PT": {
+      "name": "Portugalija",
+      "mapPosition": { "x": 4.3, "y": 89.4 },
+      "flagCode": "pt",
+      "universities": [
+        {
+          "name": "University of Lisbon",
+          "website": "ulisboa.pt",
+          "url": "https://www.ulisboa.pt",
+          "programs": "Svi programi",
+          "ranking": "#230 QS · #201-250 THE",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "Najveći u Portugaliji. €3,500-7,000/god. Lisabon — najjeftinija zapadnoevropska prestonica. 30+ programa na engleskom.",
+          "popularPrograms": ["Inženjering", "Arhitektura", "Ekonomija", "Nauka"]
+        },
+        {
+          "name": "University of Porto",
+          "website": "up.pt",
+          "url": "https://www.up.pt",
+          "programs": "Svi programi",
+          "ranking": "#237 QS · #251-300 THE",
+          "scores": {
+            "toefl": { "min": 80, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "€2,750-6,000/god. Research leader. Porto — UNESCO heritage, affordable living, great food & wine.",
+          "popularPrograms": ["Medicina", "Inženjering", "Ekonomija", "Arhitektura"]
+        },
+        {
+          "name": "NOVA University Lisbon",
+          "website": "unl.pt",
+          "url": "https://www.unl.pt",
+          "programs": "Biznis, Nauka",
+          "ranking": "#295 QS · #251-300 THE",
+          "scores": {
+            "toefl": { "min": 90, "recommended": 100 },
+            "cambridge": { "min": "176+", "recommended": "185+" },
+            "ielts": { "min": "6.5", "recommended": "7.0" }
+          },
+          "description": "€4,000-6,000/god. NOVA SBE — triple accredited, top biznis škola. Tech scene Lisabona raste.",
+          "popularPrograms": ["Ekonomija", "Finansije", "Menadžment", "Data Science"]
+        },
+        {
+          "name": "University of Coimbra",
+          "website": "uc.pt",
+          "url": "https://www.uc.pt",
+          "programs": "Svi programi",
+          "ranking": "#401-410 QS · #501-600 THE",
+          "scores": {
+            "toefl": { "min": 75, "recommended": 85 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "UNESCO Heritage kampus (1290). €3,000-5,000/god. Najstariji u Portugaliji. Harry Potter vibes — Hogwarts inspiracija.",
+          "popularPrograms": ["Pravo", "Medicina", "Književnost", "Istorija"]
+        }
+      ]
+    },
+    "EE": {
+      "name": "Estonija",
+      "mapPosition": { "x": 66.4, "y": 45.4 },
+      "flagCode": "ee",
+      "universities": [
+        {
+          "name": "University of Tartu",
+          "website": "ut.ee",
+          "url": "https://ut.ee",
+          "programs": "IT, Nauka",
+          "ranking": "#358-362 QS · #301-350 THE",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "169+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Najbolji u Baltiku. €3,000-4,000/god. 336+ tuition waivers! E-Estonia, digital government centar. 55+ programa na engleskom.",
+          "popularPrograms": ["CS", "Medicina", "Pravo", "Data Science"]
+        },
+        {
+          "name": "TalTech",
+          "website": "taltech.ee",
+          "url": "https://taltech.ee",
+          "programs": "Tech, Biznis",
+          "ranking": "#621-635 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€2,300-6,000/god. Tallinn University of Technology. Formula Student #1 globalno! Cybersecurity centar. Startup ecosystem.",
+          "popularPrograms": ["Cybersecurity", "IT", "Biznis", "Engineering"]
+        }
+      ]
+    },
+    "LV": {
+      "name": "Latvija",
+      "mapPosition": { "x": 65.2, "y": 50.0 },
+      "flagCode": "lv",
+      "universities": [
+        {
+          "name": "University of Latvia",
+          "website": "lu.lv",
+          "url": "https://www.lu.lv",
+          "programs": "Svi programi",
+          "ranking": "#781-850 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€1,600-6,000/god. Najstariji latvijski (1919). CS #1 u Latviji. Riga — Art Nouveau prestonica Evrope.",
+          "popularPrograms": ["Medicina", "IT", "Ekonomija", "Pravo"]
+        },
+        {
+          "name": "Riga Technical University",
+          "website": "rtu.lv",
+          "url": "https://www.rtu.lv",
+          "programs": "Inženjering",
+          "ranking": "#721-770 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€2,600-4,200/god. 50+ programa na engleskom. IT i engineering focus. Affordable Riga living.",
+          "popularPrograms": ["Inženjering", "IT", "Arhitektura", "Aviacija"]
+        },
+        {
+          "name": "Riga Stradiņš University",
+          "website": "rsu.lv",
+          "url": "https://www.rsu.lv",
+          "programs": "Medicina",
+          "ranking": "#951-1000 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€13,500/god (medicina). DVA upisa godišnje! Nema prijemnog ispita. WHO/GMC priznata. Affordable put to MD.",
+          "popularPrograms": ["Medicina", "Stomatologija", "Farmacija", "Fizioterapija"]
+        }
+      ]
+    },
+    "LT": {
+      "name": "Litvanija",
+      "mapPosition": { "x": 61.4, "y": 54.3 },
+      "flagCode": "lt",
+      "universities": [
+        {
+          "name": "Vilnius University",
+          "website": "vu.lt",
+          "url": "https://www.vu.lt",
+          "programs": "Svi programi",
+          "ranking": "#439-446 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "Najstariji u Baltiku (1579). €3,000-15,000/god. 50+ programa na engleskom. Vilnius — najbrže rastući tech hub EU.",
+          "popularPrograms": ["Medicina", "Pravo", "IT", "Ekonomija"]
+        },
+        {
+          "name": "Kaunas University of Technology",
+          "website": "ktu.edu",
+          "url": "https://ktu.edu",
+          "programs": "Inženjering",
+          "ranking": "#741-760 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€3,200-5,600/god. FULL TUITION WAIVERS dostupne! 50+ programa na engleskom. Kaunas — student city.",
+          "popularPrograms": ["Inženjering", "IT", "Mehatronika", "Biznis"]
+        },
+        {
+          "name": "Lithuanian University of Health Sciences",
+          "website": "lsmu.lt",
+          "url": "https://lsmu.lt",
+          "programs": "Medicina",
+          "ranking": "#801-1000 THE",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€12,600-14,100/god. Specialized medical university. WHO/GMC priznata. Kaunas lokacija, affordable living.",
+          "popularPrograms": ["Medicina", "Stomatologija", "Veterina", "Farmacija"]
         }
       ]
     },
@@ -1269,28 +1801,70 @@
           "website": "unibuc.ro",
           "url": "https://unibuc.ro",
           "programs": "Svi programi",
-          "ranking": "#1 u Rumuniji",
+          "ranking": "#761-770 QS",
           "scores": {
             "toefl": { "min": 72, "recommended": 85 },
             "cambridge": { "min": "162+", "recommended": "176+" },
             "ielts": { "min": "5.5", "recommended": "6.5" }
           },
-          "description": "Najveći univerzitet. Vrlo pristupačno.",
-          "popularPrograms": ["Pravo", "Matematika", "Fizika"]
+          "description": "€2,000-4,500/god. Najbolji employment outcomes u Rumuniji. 318 programa. Bukurešt — rastući tech hub.",
+          "popularPrograms": ["Pravo", "Matematika", "Fizika", "IT"]
         },
         {
           "name": "Babeș-Bolyai University",
           "website": "ubbcluj.ro",
           "url": "https://www.ubbcluj.ro",
           "programs": "Svi programi",
-          "ranking": "#2 u Rumuniji",
+          "ranking": "#761-770 QS",
           "scores": {
             "toefl": { "min": 72, "recommended": 85 },
             "cambridge": { "min": "162+", "recommended": "176+" },
             "ielts": { "min": "5.5", "recommended": "6.5" }
           },
-          "description": "Najveći u Transilvaniji. Kluz.",
-          "popularPrograms": ["Psihologija", "Hemija", "IT"]
+          "description": "€2,200-5,500/god. Najveći rumunski uni. Cluj-Napoca — 'Silicon Valley of Romania'. Tech startups boom.",
+          "popularPrograms": ["Psihologija", "Hemija", "IT", "Ekonomija"]
+        },
+        {
+          "name": "Carol Davila University of Medicine",
+          "website": "umfcd.ro",
+          "url": "https://umfcd.ro",
+          "programs": "Medicina",
+          "ranking": "#801-1000 THE",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€5,000-10,000/god. WHO/GMC recognized. Nobelovac George Emil Palade alumni. Bukvalno pored Srbije!",
+          "popularPrograms": ["Medicina", "Stomatologija", "Farmacija"]
+        },
+        {
+          "name": "Politehnica University Bucharest",
+          "website": "upb.ro",
+          "url": "https://upb.ro",
+          "programs": "Inženjering",
+          "ranking": "Top tech u Rumuniji",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€2,500-4,000/god. Vodeći tehnički u Rumuniji. IT outsourcing hub — dobre job opportunities.",
+          "popularPrograms": ["Inženjering", "IT", "Elektrotehnika", "Automatika"]
+        },
+        {
+          "name": "West University of Timișoara",
+          "website": "uvt.ro",
+          "url": "https://www.uvt.ro",
+          "programs": "Svi programi",
+          "ranking": "#1201-1400 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€2,000-3,500/god. DIREKTNE VEZE iz Srbije! Timišoara — European Capital of Culture 2023. 2h od Beograda.",
+          "popularPrograms": ["IT", "Ekonomija", "Pravo", "Muzika"]
         }
       ]
     },
@@ -1304,28 +1878,56 @@
           "website": "uni-sofia.bg",
           "url": "https://www.uni-sofia.bg",
           "programs": "Svi programi",
-          "ranking": "#1 u Bugarskoj",
+          "ranking": "#731-740 QS",
           "scores": {
             "toefl": { "min": 72, "recommended": 85 },
             "cambridge": { "min": "162+", "recommended": "176+" },
             "ielts": { "min": "5.5", "recommended": "6.5" }
           },
-          "description": "Najprestižniji u Bugarskoj.",
-          "popularPrograms": ["Pravo", "Ekonomija", "Fizika"]
+          "description": "€2,824-7,700/god. Najstariji u Bugarskoj. Living costs €300-500/mesečno — NAJJEFTINIJE u EU! Srpski lako razumljiv.",
+          "popularPrograms": ["Pravo", "Ekonomija", "Fizika", "CS"]
         },
         {
           "name": "Medical University Sofia",
           "website": "mu-sofia.bg",
           "url": "https://mu-sofia.bg",
           "programs": "Medicina",
-          "ranking": "#1 medicina u Bugarskoj",
+          "ranking": "#601 (Medicine) · #1201-1500 THE",
           "scores": {
             "toefl": { "min": 72, "recommended": 85 },
             "cambridge": { "min": "162+", "recommended": "176+" },
             "ielts": { "min": "5.5", "recommended": "6.5" }
           },
-          "description": "Vodeći za medicinu u Bugarskoj.",
+          "description": "€8,000-9,000/god. GMC/WHO recognized. Affordable path to MD. Bugarski sličan srpskom — lakša adaptacija.",
           "popularPrograms": ["Medicina", "Stomatologija", "Farmacija"]
+        },
+        {
+          "name": "Medical University Plovdiv",
+          "website": "mu-plovdiv.bg",
+          "url": "https://mu-plovdiv.bg",
+          "programs": "Medicina",
+          "ranking": "Top medicinski",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€8,000-10,000/god. Plovdiv — European Capital of Culture. Kulturni grad, affordable. GMC/WHO recognized.",
+          "popularPrograms": ["Medicina", "Stomatologija", "Farmacija"]
+        },
+        {
+          "name": "Technical University Sofia",
+          "website": "tu-sofia.bg",
+          "url": "https://www.tu-sofia.bg",
+          "programs": "Inženjering",
+          "ranking": "#751-850 QS",
+          "scores": {
+            "toefl": { "min": 72, "recommended": 85 },
+            "cambridge": { "min": "162+", "recommended": "176+" },
+            "ielts": { "min": "5.5", "recommended": "6.5" }
+          },
+          "description": "€3,000-4,000/god. Najveći tehnički u Bugarskoj. IT outsourcing industrija raste — dobre job šanse.",
+          "popularPrograms": ["Inženjering", "IT", "Elektrotehnika", "Telekomunikacije"]
         }
       ]
     },
@@ -1335,46 +1937,60 @@
       "flagCode": "gr",
       "universities": [
         {
-          "name": "NTUA Athens",
-          "website": "ntua.gr",
-          "url": "https://www.ntua.gr",
-          "programs": "Inženjering",
-          "ranking": "#1 u Grčkoj",
-          "scores": {
-            "toefl": { "min": 79, "recommended": 90 },
-            "cambridge": { "min": "169+", "recommended": "180+" },
-            "ielts": { "min": "6.0", "recommended": "6.5" }
-          },
-          "description": "Vodeći za inženjering u Grčkoj.",
-          "popularPrograms": ["Arhitektura", "Građevina", "Elektrotehnika"]
-        },
-        {
-          "name": "University of Athens",
+          "name": "National and Kapodistrian University of Athens",
           "website": "uoa.gr",
           "url": "https://en.uoa.gr",
           "programs": "Svi programi",
-          "ranking": "#2 u Grčkoj",
+          "ranking": "#390 QS · #201-300 THE",
           "scores": {
             "toefl": { "min": 79, "recommended": 90 },
             "cambridge": { "min": "169+", "recommended": "180+" },
             "ielts": { "min": "6.0", "recommended": "6.5" }
           },
-          "description": "Najstariji u Grčkoj (1837).",
-          "popularPrograms": ["Medicina", "Pravo", "Filozofija"]
+          "description": "Medicina #102 globalno. ~€1,500/god. Najstariji na Balkanu. Atina — cradle of Western civilization. Orthodox heritage.",
+          "popularPrograms": ["Medicina", "Pravo", "Filozofija", "Arheologija"]
         },
         {
-          "name": "Aristotle University",
+          "name": "Aristotle University of Thessaloniki",
           "website": "auth.gr",
           "url": "https://www.auth.gr",
           "programs": "Svi programi",
-          "ranking": "#3 u Grčkoj",
+          "ranking": "#491-500 QS · #501-600 THE",
           "scores": {
             "toefl": { "min": 79, "recommended": 90 },
             "cambridge": { "min": "169+", "recommended": "180+" },
             "ielts": { "min": "6.0", "recommended": "6.5" }
           },
-          "description": "Najveći univerzitet u Grčkoj. Solun.",
-          "popularPrograms": ["Medicina", "Inženjering", "Pravo"]
+          "description": "€1,500-2,000/god. NAJVEĆI u Grčkoj. Solun — 5h od Beograda. Living costs €450-750/mesečno — najniže u Evropi!",
+          "popularPrograms": ["Medicina", "Inženjering", "Pravo", "Teologija"]
+        },
+        {
+          "name": "National Technical University of Athens",
+          "website": "ntua.gr",
+          "url": "https://www.ntua.gr",
+          "programs": "Inženjering",
+          "ranking": "#421-430 QS",
+          "scores": {
+            "toefl": { "min": 79, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "€0-1,800/god. Civil Engineering #50 globalno! Vodeći tehnički u Grčkoj. Atina kombinuje istoriju i modernost.",
+          "popularPrograms": ["Arhitektura", "Građevina", "Elektrotehnika", "Mašinstvo"]
+        },
+        {
+          "name": "Athens University of Economics and Business",
+          "website": "aueb.gr",
+          "url": "https://www.aueb.gr",
+          "programs": "Biznis, Ekonomija",
+          "ranking": "#451-500 QS",
+          "scores": {
+            "toefl": { "min": 79, "recommended": 90 },
+            "cambridge": { "min": "169+", "recommended": "180+" },
+            "ielts": { "min": "6.0", "recommended": "6.5" }
+          },
+          "description": "€2,000-4,000/god. #1 biznis škola u Grčkoj. Dobri finance placements. Atina centar.",
+          "popularPrograms": ["MBA", "Finansije", "Ekonomija", "Marketing"]
         }
       ]
     },
@@ -1388,28 +2004,28 @@
           "website": "uni-lj.si",
           "url": "https://www.uni-lj.si",
           "programs": "Svi programi",
-          "ranking": "#1 u Sloveniji",
+          "ranking": "#535 QS · #801-1000 THE",
           "scores": {
             "toefl": { "min": 79, "recommended": 90 },
             "cambridge": { "min": "169+", "recommended": "180+" },
             "ielts": { "min": "6.0", "recommended": "6.5" }
           },
-          "description": "Najveći slovenački univerzitet. Osnovan 1919.",
-          "popularPrograms": ["Medicina", "Pravo", "Ekonomija"]
+          "description": "#1 u Sloveniji i na Balkanu. €2,000-5,000/god. Ljubljana — 4h od Beograda! Prelepi alpski grad. Srpski razumljiv.",
+          "popularPrograms": ["Medicina", "Pravo", "Ekonomija", "Arhitektura"]
         },
         {
           "name": "University of Maribor",
           "website": "um.si",
           "url": "https://www.um.si",
-          "programs": "Svi programi",
-          "ranking": "#2 u Sloveniji",
+          "programs": "Inženjering",
+          "ranking": "#801-1000 QS",
           "scores": {
             "toefl": { "min": 75, "recommended": 85 },
             "cambridge": { "min": "162+", "recommended": "176+" },
             "ielts": { "min": "5.5", "recommended": "6.5" }
           },
-          "description": "Drugi najveći. Jak za inženjering.",
-          "popularPrograms": ["Inženjering", "Ekonomija", "Pravo"]
+          "description": "€2,000-4,000/god. Drugi najveći. Blizu austrijske granice. Jak za inženjering. Wine region — Štajerska.",
+          "popularPrograms": ["Inženjering", "Ekonomija", "Pravo", "Turizam"]
         }
       ]
     }
