@@ -1,0 +1,887 @@
+{
+  "meta": {
+    "version": "3.0",
+    "title": "Business English Proficiency Assessment",
+    "totalQuestions": 75,
+    "questionsPerQuiz": 25,
+    "timePerQuestion": 20,
+    "estimatedDuration": "8-9 minutes",
+    "skills": {
+      "vocabulary": {
+        "name": "Business Vocabulary",
+        "description": "Collocations, word forms, and precise lexical choices in professional contexts"
+      },
+      "register": {
+        "name": "Professional Register",
+        "description": "Appropriate formality levels for different business communication contexts"
+      },
+      "diplomatic": {
+        "name": "Diplomatic Language",
+        "description": "Hedging, softening, and tactful expression in workplace communication"
+      },
+      "pragmatic": {
+        "name": "Business Communication",
+        "description": "Understanding intent, appropriate responses, and workplace discourse conventions"
+      }
+    },
+    "levels": {
+      "L1": "B1-B2 (Intermediate)",
+      "L2": "B2 (Upper-Intermediate)", 
+      "L3": "B2-C1 (Advanced)",
+      "L4": "C1 (Proficient)"
+    }
+  },
+  "skillInsights": {
+    "vocabulary": {
+      "title": "Business Vocabulary",
+      "problem": "Your responses indicate difficulty with business collocations—the specific word combinations that native speakers use naturally. For example, we 'reach' a decision (not 'make'), 'address' concerns (not 'speak'), and 'meet' a deadline (not 'catch').",
+      "tip": "When learning new business vocabulary, always note the words that typically appear together. Keep a collocation journal organised by verb: what do we 'raise'? (concerns, questions, issues). What do we 'meet'? (deadlines, targets, expectations)."
+    },
+    "register": {
+      "title": "Professional Register",
+      "problem": "Your responses suggest inconsistency in matching language formality to business contexts. Effective professionals adjust their communication style based on the audience, channel, and purpose—more formal for external clients and senior leadership, more conversational for immediate colleagues.",
+      "tip": "Before writing any business communication, identify your audience and purpose. For new contacts and formal situations, favour complete sentences and conventional openings. Reserve contractions and casual expressions for established relationships with peers."
+    },
+    "diplomatic": {
+      "title": "Diplomatic Language",
+      "problem": "Your responses indicate a tendency toward direct expression where more nuanced language would be more effective. In professional contexts, softening devices and hedging language help maintain relationships while still communicating clearly.",
+      "tip": "Build a repertoire of softening expressions: 'It appears that...', 'You may wish to consider...', 'There seems to be...'. These allow you to raise concerns without creating defensiveness."
+    },
+    "pragmatic": {
+      "title": "Business Communication",
+      "problem": "Your responses suggest difficulty recognising the underlying intent behind workplace communications or selecting contextually appropriate responses. Effective business communication requires reading between the lines and responding to what is implied as well as what is stated.",
+      "tip": "When reading business communications, ask yourself: What does this person actually need? What response would move the situation forward? The most helpful reply often addresses the underlying concern rather than just the surface question."
+    }
+  },
+  "questions": {
+    "L1": [
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The committee will _______ a decision regarding the proposal by Friday.",
+        "options": ["make", "reach", "take", "do"],
+        "correct": 1,
+        "rationale": "In formal business contexts, 'reach a decision' is the standard collocation, implying deliberation and consensus."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "Please ensure that all expenses are submitted before the end of the _______ period.",
+        "options": ["accounting", "counting", "calculating", "numbering"],
+        "correct": 0,
+        "rationale": "'Accounting period' is the standard business term for a defined timeframe used for financial reporting."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The management team needs to _______ the concerns raised by the quality assurance department.",
+        "options": ["speak", "say", "address", "tell"],
+        "correct": 2,
+        "rationale": "'Address concerns' is the correct business collocation meaning to deal with or respond to issues."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate opening for this email.",
+        "context": "You are writing to a potential client who has enquired about your company's services. You have not previously corresponded.",
+        "options": [
+          "Hey! Thanks for getting in touch!",
+          "Dear Sir or Madam, I am writing with reference to your enquiry dated 15 March.",
+          "Thank you for your enquiry regarding our consulting services.",
+          "Hi there, got your message about our services."
+        ],
+        "correct": 2,
+        "rationale": "This option balances professionalism with accessibility—appropriate for a new business contact without being overly formal or casual."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate closing for this email.",
+        "context": "You are confirming a meeting time with a senior executive at a client organisation whom you have met once previously.",
+        "options": [
+          "Cheers!",
+          "I look forward to our meeting on Thursday.",
+          "Looking forward to catching up!",
+          "Awaiting your presence at the scheduled appointment."
+        ],
+        "correct": 1,
+        "rationale": "This closing is professionally warm without being overly casual or excessively formal."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate response.",
+        "context": "A colleague has submitted a report containing several factual errors. You need to request revisions.",
+        "options": [
+          "Your report has errors. Please fix them.",
+          "I've identified some areas in the report that may benefit from clarification. Could we discuss these at your convenience?",
+          "This report is not acceptable in its current form.",
+          "You made mistakes that need correcting."
+        ],
+        "correct": 1,
+        "rationale": "This option raises the issue without attributing blame, uses softening language ('may benefit'), and offers collaboration."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What is the primary purpose of this message?",
+        "context": "Email from department head: 'I noticed the quarterly figures haven't been uploaded to the shared drive yet. The finance team mentioned they're waiting for them.'",
+        "options": [
+          "To criticise the recipient's work performance",
+          "To inform the recipient about the finance team's activities",
+          "To prompt the recipient to complete an overdue task",
+          "To ask about the status of the quarterly figures"
+        ],
+        "correct": 2,
+        "rationale": "The indirect phrasing is a polite prompt for action—a common pattern in professional communication."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The project was completed ahead of schedule and under _______.",
+        "options": ["cost", "budget", "expense", "price"],
+        "correct": 1,
+        "rationale": "'Under budget' is the fixed expression meaning the project cost less than allocated."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "We need to _______ a meeting to discuss the third-quarter results.",
+        "options": ["make", "do", "arrange", "create"],
+        "correct": 2,
+        "rationale": "'Arrange a meeting' is the standard business collocation."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to decline this request.",
+        "context": "A client has asked you to complete additional work outside the agreed scope at no extra charge.",
+        "options": [
+          "No, that's not included in our contract.",
+          "That's outside the scope of our current agreement. I'd be happy to provide a quote for the additional work.",
+          "We can't do extra work for free.",
+          "That request is unreasonable."
+        ],
+        "correct": 1,
+        "rationale": "This response sets a clear boundary while maintaining the relationship and offering a path forward."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "Select the most appropriate response to this request.",
+        "context": "Your manager asks: 'Could you send me those figures when you have a moment?'",
+        "options": [
+          "I'm too busy right now.",
+          "Yes, I'll send them within the hour.",
+          "When I have a moment? I have many moments.",
+          "Which figures do you mean?"
+        ],
+        "correct": 1,
+        "rationale": "'When you have a moment' is a polite softener—the request is still a priority. A specific commitment is the professional response."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the version most appropriate for a company-wide announcement.",
+        "context": "You need to inform all staff that the office will close early on Friday.",
+        "options": [
+          "Heads up everyone—we're closing early Friday!",
+          "Please be advised that the office will close at 3:00 PM on Friday, 12 April.",
+          "FYI: Early close Fri.",
+          "I wanted to let you all know that we might be closing early on Friday if that works."
+        ],
+        "correct": 1,
+        "rationale": "Company-wide announcements require clear, unambiguous language with specific details."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The report _______ several areas where operational efficiency could be improved.",
+        "options": ["identifies", "says", "speaks", "tells"],
+        "correct": 0,
+        "rationale": "'Identify' collocates with areas, issues, and problems in formal business writing."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to express disagreement in a meeting.",
+        "context": "A colleague has proposed a timeline that you believe is unrealistic.",
+        "options": [
+          "That timeline is impossible.",
+          "I can see the appeal of that timeline. I'm wondering whether we've accounted for the testing phase, which typically requires three weeks.",
+          "You're being unrealistic about how long this will take.",
+          "No, that won't work."
+        ],
+        "correct": 1,
+        "rationale": "This response acknowledges the proposal positively, then raises a specific concern as a question rather than a statement."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What is implied by this response?",
+        "context": "You ask a colleague if they can help with a project. They respond: 'I'm quite tied up with the Henderson account at the moment.'",
+        "options": [
+          "They are refusing permanently",
+          "They are declining for now but may help later",
+          "They want you to help with the Henderson account",
+          "They are asking for more information about your project"
+        ],
+        "correct": 1,
+        "rationale": "'At the moment' signals a temporary situation—this is a soft decline with an implied future possibility."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The company has decided to _______ its investment in renewable energy.",
+        "options": ["increase", "grow", "raise", "rise"],
+        "correct": 0,
+        "rationale": "'Increase investment' is the correct collocation. 'Raise' is used with funds or capital, not investment itself."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate phrasing for a formal report.",
+        "context": "You need to state that sales declined in the third quarter.",
+        "options": [
+          "Sales went down a lot in Q3.",
+          "Sales figures took a hit last quarter.",
+          "Third-quarter sales declined by 12% compared to the previous period.",
+          "We didn't sell as much stuff in Q3."
+        ],
+        "correct": 2,
+        "rationale": "Formal reports require precise language with specific figures and standard business terminology."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to request urgent action.",
+        "context": "You need a colleague to prioritise reviewing a document before tomorrow's client meeting.",
+        "options": [
+          "I need this reviewed immediately.",
+          "Review this now—it's urgent.",
+          "I realise this is short notice, but would it be possible to have your feedback by end of day? The client meeting is tomorrow morning.",
+          "This should have been done already. Please review it today."
+        ],
+        "correct": 2,
+        "rationale": "This request acknowledges the imposition, makes a specific ask, and provides context for the urgency."
+      }
+    ],
+    "L2": [
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The audit _______ several discrepancies in the financial records.",
+        "options": ["revealed", "showed", "opened", "displayed"],
+        "correct": 0,
+        "rationale": "'Reveal' collocates with discrepancies and findings in formal audit contexts, implying discovery of something previously hidden."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The merger is expected to _______ significant cost savings across both organisations.",
+        "options": ["give", "yield", "make", "do"],
+        "correct": 1,
+        "rationale": "'Yield' is the formal business term for producing results, particularly with savings, returns, or benefits."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate version for client correspondence.",
+        "context": "You need to inform a client that their order will be delayed by one week.",
+        "options": [
+          "Bad news—your order's going to be late. Sorry about that!",
+          "Your order is delayed.",
+          "I am writing to inform you that your order will require an additional week for processing. We apologise for any inconvenience this may cause.",
+          "We regret to advise you that we are unable to fulfil your order within the timeframe originally specified, and humbly request your forbearance."
+        ],
+        "correct": 2,
+        "rationale": "This version is appropriately formal for client communication, provides specific information, and includes an appropriate apology."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to raise a concern about project scope.",
+        "context": "The client has requested features that were not included in the original agreement.",
+        "options": [
+          "These features weren't part of what we agreed to.",
+          "I'd like to ensure we're aligned on scope. The features you've mentioned would represent an expansion of the original specification. Shall I prepare a revised proposal?",
+          "You're asking for more than we agreed on.",
+          "That's scope creep and we can't do it."
+        ],
+        "correct": 1,
+        "rationale": "This response reframes the issue neutrally, focuses on alignment, and offers a constructive path forward."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What does the sender expect in response to this email?",
+        "context": "Email from a senior manager: 'I've been reviewing the project timeline. The current end date seems quite ambitious given the resources available.'",
+        "options": [
+          "Confirmation that the timeline will remain unchanged",
+          "A detailed justification of the timeline or a proposal for adjustment",
+          "Information about resource availability",
+          "No response is expected"
+        ],
+        "correct": 1,
+        "rationale": "'Seems quite ambitious' is diplomatic language signalling concern. The implicit request is for the timeline to be reconsidered or defended."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The board has agreed to _______ the restructuring plan proposed by the management team.",
+        "options": ["adopt", "adapt", "accept", "approve"],
+        "correct": 0,
+        "rationale": "'Adopt a plan' means to formally accept and implement it. 'Approve' would require a different construction ('approved the plan')."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to acknowledge an error.",
+        "context": "Your team delivered a report containing incorrect data to a client.",
+        "options": [
+          "There were some mistakes in the report.",
+          "We've identified an error in the data provided and have corrected the affected sections. Please find the revised report attached.",
+          "Sorry, we got some numbers wrong.",
+          "The report had problems but we've fixed them now."
+        ],
+        "correct": 1,
+        "rationale": "This response takes ownership specifically, explains the corrective action, and provides the solution—all without excessive apologising."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the phrasing most appropriate for a board presentation.",
+        "context": "You are presenting quarterly results that show significant revenue growth.",
+        "options": [
+          "We absolutely crushed it this quarter!",
+          "Revenue increased substantially in Q2.",
+          "Q2 revenue grew by 23% year-over-year, exceeding projections by 8 percentage points.",
+          "Sales were much better than we thought they'd be."
+        ],
+        "correct": 2,
+        "rationale": "Board presentations require precise data with specific figures and professional comparisons to benchmarks."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What is the most appropriate response to this message?",
+        "context": "Email from a colleague: 'Do you have five minutes to discuss the Anderson proposal?' Your calendar shows you have a meeting in 10 minutes.",
+        "options": [
+          "No, I'm busy.",
+          "I have about five minutes now, or I could give you more time after 3 PM. Which works better?",
+          "What about the Anderson proposal?",
+          "I suppose so."
+        ],
+        "correct": 1,
+        "rationale": "This response is honest about the constraint while offering an alternative—demonstrating both helpfulness and time management."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The company is seeking to _______ its market share in the Asia-Pacific region.",
+        "options": ["expand", "extend", "enlarge", "increase"],
+        "correct": 0,
+        "rationale": "'Expand market share' is the standard business collocation for growing presence in a market."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to provide negative feedback on a proposal.",
+        "context": "You have been asked to evaluate a business proposal that has significant weaknesses.",
+        "options": [
+          "This proposal has several problems.",
+          "I don't think this will work.",
+          "The proposal demonstrates thorough research. I've noted some areas that may warrant further development, particularly regarding the financial projections.",
+          "This proposal is not ready for consideration."
+        ],
+        "correct": 2,
+        "rationale": "Effective feedback acknowledges strengths first, then frames weaknesses as areas for development rather than failures."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate email subject line.",
+        "context": "You are following up on a proposal submitted two weeks ago.",
+        "options": [
+          "Hey—any update??",
+          "Following Up on Proposal Submitted 15 March",
+          "URGENT: Need Response",
+          "Checking in"
+        ],
+        "correct": 1,
+        "rationale": "Professional subject lines are specific, include relevant dates or reference numbers, and avoid unnecessary urgency markers."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What action is being requested in this message?",
+        "context": "Email from your manager: 'I see the marketing budget hasn't been finalised yet. The finance team needs it by Thursday.'",
+        "options": [
+          "To inform the finance team about the delay",
+          "To finalise and submit the marketing budget before Thursday",
+          "To explain why the budget is not yet complete",
+          "To contact your manager to discuss the budget"
+        ],
+        "correct": 1,
+        "rationale": "The statement of deadline combined with the observation that the task is incomplete constitutes an indirect but clear request for action."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The negotiations _______ an agreement acceptable to both parties.",
+        "options": ["resulted", "produced", "made", "caused"],
+        "correct": 1,
+        "rationale": "'Produce an agreement' is the appropriate collocation for negotiations leading to a formal outcome."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to request a deadline extension.",
+        "context": "You will not be able to meet an agreed deadline due to unexpected complications.",
+        "options": [
+          "I can't finish this on time.",
+          "I need more time.",
+          "Due to unforeseen technical requirements, I would like to request an extension until Wednesday. This will allow sufficient time to ensure the quality meets expectations.",
+          "The deadline is unrealistic and I need it extended."
+        ],
+        "correct": 2,
+        "rationale": "This request provides a reason, specifies the new timeline, and frames the extension in terms of quality outcomes."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The CEO will _______ her vision for the company at the annual shareholders' meeting.",
+        "options": ["present", "give", "say", "tell"],
+        "correct": 0,
+        "rationale": "'Present a vision' is the formal collocation for communicating strategic direction to stakeholders."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What is the purpose of the phrase 'correct me if I'm wrong' in business communication?",
+        "context": "In a meeting, a colleague says: 'Correct me if I'm wrong, but I believe we agreed to launch in September.'",
+        "options": [
+          "To express uncertainty about their memory",
+          "To invite others to challenge their statement directly",
+          "To assert their position while appearing open to discussion",
+          "To apologise in advance for a potential error"
+        ],
+        "correct": 2,
+        "rationale": "This phrase is often used to state a position firmly while maintaining a collaborative tone—it's a diplomatic assertion technique."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate way to end a formal business letter.",
+        "context": "You are writing to a prospective client with a proposal.",
+        "options": [
+          "Let me know what you think!",
+          "I look forward to the opportunity to discuss this proposal with you at your convenience.",
+          "Hope to hear from you soon.",
+          "Please respond at your earliest convenience as this offer is time-sensitive."
+        ],
+        "correct": 1,
+        "rationale": "This closing is professionally courteous, expresses interest without pressure, and invites further communication."
+      }
+    ],
+    "L3": [
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The proposed changes are _______ upon approval from the regulatory authority.",
+        "options": ["dependent", "contingent", "reliant", "conditional"],
+        "correct": 1,
+        "rationale": "'Contingent upon' is the precise legal and business term indicating that something depends on a condition being met."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to present findings that contradict a senior executive's position.",
+        "context": "Your data analysis suggests that a strategy endorsed by the CEO is unlikely to succeed.",
+        "options": [
+          "The data shows your strategy won't work.",
+          "Based on the analysis, the current approach appears unlikely to achieve the projected outcomes. I've outlined several alternative scenarios that may warrant consideration.",
+          "I think we should reconsider this strategy.",
+          "With respect, the numbers don't support this direction."
+        ],
+        "correct": 1,
+        "rationale": "This response focuses on data rather than people, uses hedging appropriately ('appears unlikely'), and offers constructive alternatives."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate phrasing for a formal risk assessment.",
+        "context": "You need to describe a potential problem that could affect the project timeline.",
+        "options": [
+          "This might cause some delays if we're not careful.",
+          "There is a significant risk this will delay everything.",
+          "Dependency on third-party vendor deliverables represents a moderate risk to timeline adherence, with potential impact of 2-3 weeks.",
+          "We could have problems with delays because of the vendors."
+        ],
+        "correct": 2,
+        "rationale": "Formal risk assessments require precise language, risk quantification, and specific impact estimates."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What is the strategic purpose of the underlined phrase?",
+        "context": "In a negotiation, your counterpart says: 'We've made significant concessions already. <u>I'm not sure how much further we can go.</u>'",
+        "options": [
+          "To indicate that negotiations have failed",
+          "To signal that they have reached their limit and create pressure for you to concede",
+          "To request a break in negotiations",
+          "To ask for clarification on your position"
+        ],
+        "correct": 1,
+        "rationale": "This is a negotiation tactic—signalling (real or perceived) limits to prompt concessions from the other party."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The committee's recommendations were largely _______, though several members expressed reservations.",
+        "options": ["supported", "endorsed", "agreed", "approved"],
+        "correct": 1,
+        "rationale": "'Endorse recommendations' is the formal collocation for officially supporting proposals, particularly in committee contexts."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to respond to an unreasonable client demand.",
+        "context": "A client is requesting delivery in half the standard timeframe without additional cost.",
+        "options": [
+          "That's not possible within our standard terms.",
+          "To deliver in that timeframe would require additional resources. I can provide two options: an expedited service at an adjusted rate, or our standard timeline. Which would you prefer to explore?",
+          "We can't do that without charging more.",
+          "That timeline is unrealistic for this scope of work."
+        ],
+        "correct": 1,
+        "rationale": "This response acknowledges the request, explains the constraint, offers concrete alternatives, and gives the client choice."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the phrasing most appropriate for executive correspondence.",
+        "context": "You are writing to the CEO to summarise findings from a market analysis.",
+        "options": [
+          "I found some interesting stuff in the market data.",
+          "The analysis suggests our market position remains strong, though competitive pressure in the mid-tier segment warrants attention.",
+          "The market looks OK but there are some things we should probably think about.",
+          "I am pleased to report favourable market conditions with minor areas of concern."
+        ],
+        "correct": 1,
+        "rationale": "Executive communication should be direct, specific about findings, and clearly indicate areas requiring attention."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What response does this message invite?",
+        "context": "Email from a potential business partner: 'Your proposal is interesting. We would need to understand the resource implications more fully before proceeding.'",
+        "options": [
+          "A decision to terminate discussions",
+          "Detailed information about resource requirements",
+          "A revised proposal with different terms",
+          "A meeting to negotiate pricing"
+        ],
+        "correct": 1,
+        "rationale": "'We would need to understand... before proceeding' is a conditional expression—providing the requested information is necessary to advance the discussion."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The audit findings _______ concerns about internal control procedures.",
+        "options": ["raised", "made", "gave", "brought"],
+        "correct": 0,
+        "rationale": "'Raise concerns' is the standard business collocation for bringing issues to attention."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to present preliminary findings.",
+        "context": "You are presenting initial research results to stakeholders before analysis is complete.",
+        "options": [
+          "The data proves that our approach is working.",
+          "Based on preliminary analysis, early indicators suggest positive momentum, though we would recommend validation before drawing definitive conclusions.",
+          "Everything looks good so far.",
+          "Initial results confirm what we expected."
+        ],
+        "correct": 1,
+        "rationale": "Multiple hedging devices ('preliminary', 'suggest', 'would recommend', 'before') appropriately qualify findings that are not yet final."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The marketing campaign failed to _______ the expected level of consumer interest.",
+        "options": ["generate", "make", "create", "produce"],
+        "correct": 0,
+        "rationale": "'Generate interest' is the standard marketing collocation for creating consumer engagement."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What is the implicit message in this feedback?",
+        "context": "Performance review comment: 'Your technical skills are excellent. There may be opportunities to develop your stakeholder management capabilities.'",
+        "options": [
+          "Technical skills need improvement",
+          "Stakeholder management is a weakness that needs addressing",
+          "Performance is satisfactory overall",
+          "No development areas have been identified"
+        ],
+        "correct": 1,
+        "rationale": "'Opportunities to develop' is standard feedback language for identifying weaknesses diplomatically."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate way to begin a formal complaint letter.",
+        "context": "You are writing to a supplier about consistently late deliveries affecting your operations.",
+        "options": [
+          "I'm really frustrated with your delivery times.",
+          "Your delivery performance is unacceptable.",
+          "I am writing to express concern regarding delivery timelines, which have consistently fallen outside the agreed service levels over the past quarter.",
+          "We need to talk about your late deliveries."
+        ],
+        "correct": 2,
+        "rationale": "Formal complaints should be specific, evidence-based ('over the past quarter'), and measured in tone while clearly stating the issue."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most effective way to decline participation in a project.",
+        "context": "A senior colleague has asked you to join a project team, but you cannot take on additional commitments.",
+        "options": [
+          "I can't take on any more work right now.",
+          "I'm not interested in that project.",
+          "I appreciate you thinking of me for this initiative. Given my current commitments, I wouldn't be able to contribute at the level this project deserves. Could I suggest Sarah, who has relevant experience and capacity?",
+          "Sorry, but no."
+        ],
+        "correct": 2,
+        "rationale": "This response acknowledges the request positively, explains the constraint professionally, frames it in terms of project needs, and offers an alternative."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The proposed merger would _______ the company as the market leader in the sector.",
+        "options": ["establish", "make", "put", "set"],
+        "correct": 0,
+        "rationale": "'Establish as' is the formal collocation for positioning or creating a status."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What does this statement indicate about the speaker's position?",
+        "context": "In contract negotiations: 'We have some flexibility on the payment terms, though the delivery schedule is fixed.'",
+        "options": [
+          "Both terms are negotiable",
+          "Neither term is negotiable",
+          "Payment terms can be discussed; delivery schedule cannot",
+          "The speaker is unwilling to continue negotiations"
+        ],
+        "correct": 2,
+        "rationale": "The contrast between 'some flexibility' and 'fixed' clearly signals which element is negotiable."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate phrasing for a public statement following a product recall.",
+        "context": "Your company has recalled a product due to a safety concern.",
+        "options": [
+          "We're sorry some products had problems. We're fixing it.",
+          "We have initiated a voluntary recall of affected units as a precautionary measure. Customer safety remains our highest priority.",
+          "We apologise unreservedly for this serious safety failure.",
+          "Some products needed to be recalled. Please return them for a refund."
+        ],
+        "correct": 1,
+        "rationale": "Crisis communication should be factual, emphasise precaution, and reinforce organisational values without over-apologising or minimising."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate response to a colleague taking credit for your work.",
+        "context": "In a meeting, a colleague presents an idea you developed as their own.",
+        "options": [
+          "That was actually my idea.",
+          "I'm pleased to see that concept gaining traction. Building on the analysis I shared with the team last week, I would add that...",
+          "You're presenting my work as yours.",
+          "Excuse me, but I came up with that."
+        ],
+        "correct": 1,
+        "rationale": "This response subtly reclaims ownership ('the analysis I shared') while remaining constructive and avoiding confrontation."
+      }
+    ],
+    "L4": [
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The committee's qualified endorsement, while not _______ formal approval, nonetheless signals alignment with the strategic direction.",
+        "options": ["being", "having", "constituting", "meaning"],
+        "correct": 2,
+        "rationale": "'Constitute' is the precise formal term for 'amount to' or 'be equivalent to' in legal and business contexts."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to communicate a compliance concern to the audit committee.",
+        "context": "Your review has identified a potential regulatory violation.",
+        "options": [
+          "We have a compliance problem that needs immediate attention.",
+          "I've identified what may constitute a deviation from regulatory requirements. Preliminary assessment suggests limited exposure, though I would recommend independent verification before reaching definitive conclusions.",
+          "There might be a compliance issue we should look at.",
+          "Regulations have been violated and we need to report it."
+        ],
+        "correct": 1,
+        "rationale": "Risk communication to governance bodies requires precise hedging ('may constitute', 'suggests'), scope indication, and recommended actions."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate response to a journalist's enquiry about an internal matter.",
+        "context": "A journalist has contacted you regarding rumoured organisational changes.",
+        "options": [
+          "No comment.",
+          "I can't discuss that with you.",
+          "Thank you for reaching out. While we don't comment on internal processes, we would be happy to discuss our recently announced growth initiatives.",
+          "That's confidential information."
+        ],
+        "correct": 2,
+        "rationale": "Professional media response acknowledges the enquiry, states the boundary clearly, and pivots to authorised messaging."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What is the strategic function of the underlined phrase?",
+        "context": "Board presentation: 'Based on the evidence, I believe this represents our strongest path forward. <u>I would welcome challenge on any of the underlying assumptions.</u>'",
+        "options": [
+          "To express uncertainty about the recommendation",
+          "To invite genuine criticism of the proposal",
+          "To demonstrate confidence while projecting openness to scrutiny",
+          "To deflect responsibility for the decision"
+        ],
+        "correct": 2,
+        "rationale": "This phrase allows the presenter to appear confident yet collaborative—a technique for building credibility with senior audiences."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The synergies _______ upon the merger have yet to materialise in any substantive form.",
+        "options": ["based", "predicated", "founded", "built"],
+        "correct": 1,
+        "rationale": "'Predicated upon' is the precise formal term meaning 'based on' or 'dependent on' in corporate and legal contexts."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most effective way to facilitate resolution when two senior executives are in conflict.",
+        "context": "You are chairing a meeting where two department heads have opposing views on resource allocation.",
+        "options": [
+          "You both need to find a compromise.",
+          "Let's move on and discuss this later.",
+          "I'm hearing two perspectives that both reflect legitimate business priorities. Could we first identify the areas where we agree before addressing where we diverge?",
+          "You're both making valid points. Let's just split the difference."
+        ],
+        "correct": 2,
+        "rationale": "Effective facilitation validates both parties, reframes conflict as differing priorities, and uses structured process to find common ground."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate phrasing for a board recommendation.",
+        "context": "You are recommending a significant capital investment to the board of directors.",
+        "options": [
+          "I think we should definitely do this. The numbers look good.",
+          "Given the analysis outlined in sections 3-5, this investment merits consideration for Q2 implementation, contingent upon the conditions specified in Appendix B.",
+          "We recommend proceeding because the returns are excellent.",
+          "This is a great opportunity and we shouldn't miss it."
+        ],
+        "correct": 1,
+        "rationale": "Board recommendations require evidence referencing, hedged language ('merits consideration'), specific timing, and documented conditions."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What is the appropriate response when receiving this feedback from a client?",
+        "context": "Client email: 'We appreciate the work your team has done. That said, we're not entirely convinced the solution addresses our core requirements.'",
+        "options": [
+          "Defend the solution and explain why it does meet requirements",
+          "Apologise and offer to start over",
+          "Request a meeting to understand their specific concerns and explore adjustments",
+          "Ask them what they would like instead"
+        ],
+        "correct": 2,
+        "rationale": "'Not entirely convinced' signals openness to discussion, not rejection. The appropriate response is to understand concerns before proposing solutions."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The proposal addresses most concerns. _______, the implementation timeline warrants further scrutiny.",
+        "options": ["Therefore", "Notwithstanding this", "Furthermore", "Similarly"],
+        "correct": 1,
+        "rationale": "'Notwithstanding this' (despite this being true) is a sophisticated connector introducing a reservation while acknowledging the positive."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to address underperformance with a direct report.",
+        "context": "A team member's recent work has not met expected standards.",
+        "options": [
+          "Your recent work hasn't been good enough.",
+          "I've been disappointed with your performance lately.",
+          "I'd like to discuss recent deliverables. I've noticed some variance from our usual quality standards. Can you walk me through what's been happening?",
+          "We need to talk about the mistakes you've been making."
+        ],
+        "correct": 2,
+        "rationale": "Effective performance conversations are specific ('recent deliverables'), observational ('I've noticed'), and invite the employee's perspective."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the most appropriate phrasing for a recommendation letter.",
+        "context": "You are writing a professional reference for a former employee.",
+        "options": [
+          "She was a great employee and I'd definitely recommend her.",
+          "She's one of the best people I've worked with.",
+          "During her three-year tenure, Ms. Chen consistently demonstrated exceptional analytical capabilities, delivering results that exceeded targets by an average of 23%.",
+          "I highly recommend her for any position."
+        ],
+        "correct": 2,
+        "rationale": "Professional references require specific timeframes, named competencies, and quantified achievements rather than general praise."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What approach does this negotiation statement signal?",
+        "context": "In a contract negotiation: 'I appreciate you putting a number on the table. We appear to be some distance apart, which suggests we may be valuing different aspects of this arrangement.'",
+        "options": [
+          "Rejection of the offer and termination of negotiations",
+          "Acceptance of the offer with minor conditions",
+          "An invitation to understand each other's priorities before further negotiation",
+          "A request for a final offer"
+        ],
+        "correct": 2,
+        "rationale": "The phrasing reframes the gap positively ('valuing different aspects') and implicitly invites exploration of underlying interests."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The ostensible cost savings were _______ by unanticipated integration complexities.",
+        "options": ["cancelled", "offset", "removed", "balanced"],
+        "correct": 1,
+        "rationale": "'Offset' is the precise financial term for counterbalancing or negating savings or gains."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most appropriate way to raise a sensitive issue with the board.",
+        "context": "You need to inform the board about a significant but manageable risk.",
+        "options": [
+          "We have a problem that could affect the business.",
+          "There's something the board should know about.",
+          "In the interest of transparency, I wish to bring to the board's attention a matter that requires monitoring. While current exposure is limited, proactive measures would be prudent.",
+          "I'm concerned about a risk we've identified."
+        ],
+        "correct": 2,
+        "rationale": "Board communication requires framing (transparency), precise characterisation (monitoring, limited exposure), and recommendations (proactive measures)."
+      },
+      {
+        "skill": "register",
+        "instruction": "Select the phrasing most appropriate for a crisis communication statement.",
+        "context": "Your company has experienced a data security incident affecting customer information.",
+        "options": [
+          "We're sorry some customer data was accessed. We're looking into it.",
+          "We regret to inform customers that their data may have been compromised.",
+          "We have identified a security incident affecting certain customer data. We have engaged specialist support, notified relevant authorities, and are directly contacting affected individuals with guidance on protective measures.",
+          "There was a data breach but we don't think it's serious."
+        ],
+        "correct": 2,
+        "rationale": "Crisis statements require factual acknowledgment, description of actions taken, and guidance for affected parties—without speculation or minimisation."
+      },
+      {
+        "skill": "pragmatic",
+        "instruction": "What does this response signal in a salary negotiation?",
+        "context": "Employer: 'That's the maximum we can offer for this role.'  Candidate: 'I understand budget constraints. Could we explore flexibility in other areas—perhaps the signing bonus, equity component, or additional leave?'",
+        "options": [
+          "Acceptance of the salary offer",
+          "Rejection of the position",
+          "An attempt to expand the negotiation scope without challenging the stated limit",
+          "A request for time to consider the offer"
+        ],
+        "correct": 2,
+        "rationale": "The response acknowledges the stated constraint while seeking value in other forms—a sophisticated 'expanding the pie' technique."
+      },
+      {
+        "skill": "vocabulary",
+        "instruction": "Select the best option to complete the sentence.",
+        "sentence": "The initiative failed to gain _______ among key stakeholders, resulting in limited adoption.",
+        "options": ["traction", "movement", "momentum", "progress"],
+        "correct": 0,
+        "rationale": "'Gain traction' is the business idiom for achieving support or acceptance, particularly for new initiatives."
+      },
+      {
+        "skill": "diplomatic",
+        "instruction": "Select the most effective way to deliver negative news about project status to a client.",
+        "context": "The project will not meet the agreed deadline due to technical complications.",
+        "options": [
+          "I'm afraid we're going to be late with the delivery.",
+          "The deadline cannot be met due to technical issues.",
+          "I'm reaching out to provide an update on timeline. We've encountered a technical complexity that requires additional development time. To maintain quality standards, we're proposing a revised delivery of [date]. Here's our plan to minimise impact on your operations.",
+          "There's been a delay. We're working on it."
+        ],
+        "correct": 2,
+        "rationale": "Effective negative news delivery leads with context, provides specific new timeline, explains the rationale (quality), and focuses on mitigation."
+      }
+    ]
+  }
+}
