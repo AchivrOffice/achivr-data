@@ -1,0 +1,571 @@
+{
+  "meta": {
+    "version": "4.0",
+    "name": "TOEFL 2026 Diagnostic",
+    "description": "Mixed TOEFL + IELTS question types",
+    "totalTime": 360,
+    "questionTime": 50,
+    "questionCount": 12
+  },
+  
+  "questions": {
+    "hard": [
+      {
+        "id": "h1",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "vocabulary",
+        "passage": "The committee offered <strong>qualified</strong> support for the proposed legislation, citing several concerns that would need to be addressed.",
+        "question": "In this context, 'qualified' most precisely means:",
+        "options": [
+          "Professionally credentialed and expert",
+          "Conditional and limited by reservations",
+          "Officially authorized by the committee",
+          "Fully endorsed after careful review"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "h2",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "vocabulary",
+        "passage": "The researcher's <strong>critical</strong> analysis of the methodology exposed several unexamined assumptions.",
+        "question": "'Critical' in this academic context means:",
+        "options": [
+          "Expressing strong disapproval",
+          "Analytically rigorous and questioning",
+          "Urgently important to address",
+          "Reaching a decisive turning point"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "h3",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "vocabulary",
+        "passage": "The experiment produced <strong>significant</strong> results across all measured parameters.",
+        "question": "In academic research, 'significant' typically indicates:",
+        "options": [
+          "Results of major practical importance",
+          "Findings that are notably large in size",
+          "Outcomes unlikely to occur by chance alone",
+          "Conclusions that surprised researchers"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "h4",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "inference",
+        "passage": "While urbanization has historically correlated with economic development, recent data from sub-Saharan Africa complicates this picture. Cities are growing rapidly, yet formal employment and infrastructure investment have not kept pace with population influx.",
+        "question": "The passage most strongly suggests that:",
+        "options": [
+          "Urbanization no longer drives growth anywhere",
+          "African cities are expanding without proportional economic gains",
+          "Infrastructure investment should always precede urban growth",
+          "The historical correlation was measured incorrectly"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "h5",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "inference",
+        "passage": "The pharmaceutical company's phase III trial demonstrated that the treatment reduced symptoms by 23% compared to placebo. However, the clinical significance of this statistical finding remains debated among practitioners.",
+        "question": "The passage implies that:",
+        "options": [
+          "The trial results were statistically invalid",
+          "A 23% reduction may not meaningfully improve patients' lives",
+          "Practitioners generally reject statistical evidence",
+          "The placebo effect was unexpectedly strong"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "h6",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "register",
+        "passage": "The evidence tentatively suggests that early intervention may contribute to improved outcomes, though the mechanisms underlying this apparent association remain poorly understood.",
+        "question": "The author's level of certainty is best described as:",
+        "options": [
+          "Confident — the relationship is established",
+          "Cautious — indicating possibility, not proof",
+          "Skeptical — doubting the intervention works",
+          "Neutral — presenting facts without interpretation"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "h7",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "register",
+        "passage": "The data unequivocally demonstrate a robust correlation between the variables. Given the consistency of findings across methodologically diverse studies, this relationship can be considered well-established.",
+        "question": "The author's stance is:",
+        "options": [
+          "Tentative and exploratory",
+          "Moderately confident with reservations",
+          "Highly confident and definitive",
+          "Dismissive of the findings"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "h8",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "grammar",
+        "passage": "The theoretical model accounts elegantly for all observed phenomena. _____, its predictive validity remains untested in real-world conditions.",
+        "question": "Choose the most precise connector:",
+        "options": [
+          "Therefore",
+          "Furthermore",
+          "That said",
+          "Subsequently"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "h9",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "grammar",
+        "passage": "Renewable energy adoption continues to accelerate globally. _____, fossil fuels still account for over 80% of primary energy consumption.",
+        "question": "Choose the most precise connector:",
+        "options": [
+          "Moreover",
+          "Nevertheless",
+          "Consequently",
+          "Specifically"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "h10",
+        "type": "tfng",
+        "category": "IELTS",
+        "skill": "inference",
+        "passage": "Research indicates that bilingual children often demonstrate enhanced executive function compared to monolingual peers. This cognitive advantage appears most pronounced in tasks requiring attention switching and inhibitory control. However, the magnitude of this effect varies considerably across studies, leading some researchers to question whether bilingualism confers consistent cognitive benefits.",
+        "statement": "All studies confirm that bilingualism improves cognitive function.",
+        "question": "According to the passage, this statement is:",
+        "options": [
+          "True",
+          "False",
+          "Not Given"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "h11",
+        "type": "tfng",
+        "category": "IELTS",
+        "skill": "inference",
+        "passage": "The Mediterranean diet has been associated with reduced cardiovascular risk in numerous observational studies. Participants who closely adhered to this dietary pattern showed lower rates of heart disease and stroke. Critics note, however, that these studies cannot establish causation, as participants who follow healthy diets may differ in other relevant ways.",
+        "statement": "The Mediterranean diet has been proven to prevent heart disease.",
+        "question": "According to the passage, this statement is:",
+        "options": [
+          "True",
+          "False",
+          "Not Given"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "h12",
+        "type": "mcq",
+        "category": "IELTS",
+        "skill": "vocabulary",
+        "passage": "The government's new policy has been met with <strong>considerable</strong> opposition from industry groups.",
+        "question": "'Considerable' here means:",
+        "options": [
+          "Thoughtful and careful",
+          "Substantial in amount or degree",
+          "Worth considering",
+          "Polite and respectful"
+        ],
+        "correct": 1
+      }
+    ],
+    
+    "expert": [
+      {
+        "id": "x1",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "inference",
+        "passage": "The epistemological crisis precipitated by digital misinformation extends beyond factual disagreement. When the very criteria for evaluating evidence become contested terrain, traditional frameworks for establishing warranted belief prove fundamentally inadequate.",
+        "question": "The passage argues that the core problem is:",
+        "options": [
+          "The volume of false information online",
+          "Disagreement about which facts are true",
+          "Disputes over how to determine what counts as evidence",
+          "The inadequacy of digital literacy education"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "x2",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "inference",
+        "passage": "Algorithmic curation, while ostensibly neutral, embeds particular epistemic values in its selection criteria. What presents itself as objective filtering reflects contingent choices about amplification—choices rendered opaque to users subject to them.",
+        "question": "The author's primary concern is that algorithms:",
+        "options": [
+          "Are intentionally designed to spread misinformation",
+          "Make value judgments while appearing neutral",
+          "Cannot process information effectively",
+          "Should be regulated by government"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "x3",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "vocabulary",
+        "passage": "The study's findings <strong>problematize</strong> conventional assumptions about linear development.",
+        "question": "'Problematize' means to:",
+        "options": [
+          "Create practical problems for implementation",
+          "Reveal hidden complexity and challenge assumptions",
+          "Find solutions to existing problems",
+          "Simplify by identifying core issues"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "x4",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "vocabulary",
+        "passage": "The theoretical framework <strong>instantiates</strong> abstract principles in concrete institutional arrangements.",
+        "question": "'Instantiates' means:",
+        "options": [
+          "Immediately implements without delay",
+          "Provides a specific example or embodiment of",
+          "Creates multiple copies of",
+          "Gradually introduces over time"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "x5",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "vocabulary",
+        "passage": "The argument, while superficially compelling, ultimately rests on a <strong>specious</strong> distinction.",
+        "question": "'Specious' means:",
+        "options": [
+          "Specifically detailed",
+          "Apparently valid but actually fallacious",
+          "Related to particular species",
+          "Highly specialized and technical"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "x6",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "register",
+        "passage": "One might tentatively suggest, pending further empirical investigation, that the observed patterns could potentially indicate an emerging trend, though considerable uncertainty remains regarding the magnitude and durability of the effect.",
+        "question": "This sentence demonstrates:",
+        "options": [
+          "Appropriate academic caution",
+          "Excessive hedging that obscures meaning",
+          "Strong confidence in findings",
+          "Rejection of the hypothesis"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "x7",
+        "type": "complete",
+        "category": "TOEFL 2026",
+        "skill": "vocabulary",
+        "sentence": "The meth_d_l_g_cal assumptions underlying this research paradigm have been increasingly questioned by scholars.",
+        "answer": "methodological",
+        "question": "Complete the academic word:"
+      },
+      {
+        "id": "x8",
+        "type": "complete",
+        "category": "TOEFL 2026",
+        "skill": "vocabulary",
+        "sentence": "The ep_st_m_l_g_cal implications of this discovery extend far beyond the immediate scientific domain.",
+        "answer": "epistemological",
+        "question": "Complete the academic word:"
+      },
+      {
+        "id": "x9",
+        "type": "tfng",
+        "category": "IELTS",
+        "skill": "inference",
+        "passage": "Artificial intelligence systems have demonstrated remarkable capabilities in narrow domains such as chess, Go, and image recognition. These achievements, while impressive, rely on training with vast datasets and considerable computational resources. Whether such systems exhibit anything resembling general intelligence or genuine understanding remains a matter of philosophical debate.",
+        "statement": "AI systems possess general intelligence comparable to humans.",
+        "question": "According to the passage, this statement is:",
+        "options": [
+          "True",
+          "False",
+          "Not Given"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "x10",
+        "type": "mcq",
+        "category": "IELTS",
+        "skill": "inference",
+        "passage": "The company's restructuring plan involves relocating headquarters to a lower-cost region, consolidating three manufacturing facilities into one, and reducing the workforce by approximately 15%. Management describes these measures as necessary for long-term competitiveness, while union representatives characterize them as prioritizing shareholder returns over worker welfare.",
+        "question": "The passage presents the restructuring as:",
+        "options": [
+          "Clearly beneficial for all stakeholders",
+          "Subject to competing interpretations",
+          "Primarily driven by short-term thinking",
+          "Likely to fail in its objectives"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "x11",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "grammar",
+        "passage": "The initial findings appeared promising. _____, subsequent replication attempts have yielded inconsistent results, casting doubt on the original conclusions.",
+        "question": "Choose the best connector:",
+        "options": [
+          "Accordingly",
+          "However",
+          "Indeed",
+          "Similarly"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "x12",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "inference",
+        "passage": "The distinction between correlation and causation, while elementary in principle, proves remarkably difficult to maintain in practice. Even sophisticated researchers frequently slide from demonstrating association to implying causation, particularly when findings align with prior theoretical commitments.",
+        "question": "The passage suggests that:",
+        "options": [
+          "The correlation-causation distinction is invalid",
+          "Even experts often conflate correlation with causation",
+          "Theoretical commitments ensure accurate inference",
+          "Statistical training eliminates this confusion"
+        ],
+        "correct": 1
+      }
+    ],
+    
+    "deadly": [
+      {
+        "id": "d1",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "inference",
+        "passage": "The sublime, as theorized by Burke and Kant, designates aesthetic experiences that overwhelm ordinary perceptual capacities: vast mountains, violent storms, the starry sky. Unlike beauty's harmonious pleasure, the sublime evokes a paradoxical admixture of terror and exaltation—we are diminished yet elevated, threatened yet safe.",
+        "question": "The 'paradox' of the sublime refers to:",
+        "options": [
+          "The contradiction between Burke and Kant's theories",
+          "The simultaneous experience of opposing emotional states",
+          "The impossibility of defining aesthetic categories",
+          "The gap between perception and cognition"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "d2",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "inference",
+        "passage": "Methodological nationalism—the unreflective assumption that the nation-state constitutes the natural container for social processes—has faced sustained critique. Yet rather than wholesale abandonment, what is required is critical refinement: retaining analytical purchase on state-level dynamics while attending to flows and networks that transgress territorial boundaries.",
+        "question": "The author advocates for:",
+        "options": [
+          "Completely abandoning nation-state analysis",
+          "Maintaining nation-state analysis unchanged",
+          "Refining approaches to address both national and transnational dynamics",
+          "Prioritizing transnational over national analysis"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "d3",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "vocabulary",
+        "passage": "The author's position, while <strong>ostensibly</strong> neutral, betrays certain ideological commitments upon closer examination.",
+        "question": "'Ostensibly' most precisely means:",
+        "options": [
+          "Obviously and clearly",
+          "Supposedly, based on appearance rather than reality",
+          "Obstinately and stubbornly",
+          "Officially and formally"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "d4",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "register",
+        "passage": "It would perhaps not be entirely unreasonable to suggest that the observed correlation might, under certain conditions, potentially lend some modest support to the hypothesis, assuming methodological concerns can be adequately addressed.",
+        "question": "This sentence is problematic because it:",
+        "options": [
+          "Makes too strong a claim without evidence",
+          "Contains multiple grammatical errors",
+          "Uses excessive qualification to the point of meaninglessness",
+          "Fails to cite supporting literature"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "d5",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "inference",
+        "passage": "The replication crisis in psychology has prompted soul-searching about the field's epistemic foundations. Yet framing the problem as merely methodological obscures deeper questions: the generalizability of findings from artificial laboratory conditions and whether statistical significance maps onto substantive importance.",
+        "question": "The author suggests the replication crisis reveals:",
+        "options": [
+          "Problems limited to statistical methods",
+          "Deeper issues beyond methodology alone",
+          "That psychology should abandon experimentation",
+          "The need for larger sample sizes only"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "d6",
+        "type": "build",
+        "category": "TOEFL 2026",
+        "skill": "grammar",
+        "words": ["whether", "causal", "correlational", "the", "relationship", "is", "or", "merely", "remains", "empirically", "determined", "to", "be"],
+        "correct": "whether the relationship is causal or merely correlational remains to be determined empirically",
+        "question": "Arrange into a grammatically correct academic sentence:"
+      },
+      {
+        "id": "d7",
+        "type": "complete",
+        "category": "TOEFL 2026",
+        "skill": "vocabulary",
+        "sentence": "The ont_l_g_cal status of theoretical entities in physics remains philosophically contested.",
+        "answer": "ontological",
+        "question": "Complete the academic word:"
+      },
+      {
+        "id": "d8",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "vocabulary",
+        "passage": "The study <strong>interrogates</strong> the assumption that market mechanisms naturally produce optimal outcomes.",
+        "question": "'Interrogates' in academic writing means:",
+        "options": [
+          "Questions in an aggressive, hostile manner",
+          "Critically examines and challenges",
+          "Asks routine questions about",
+          "Investigates through formal interviews"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "d9",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "inference",
+        "passage": "Neo-institutionalist scholars have demonstrated how organizations facing similar environmental pressures tend toward isomorphism—structural convergence driven not by efficiency but by legitimacy-seeking. Firms adopt practices not because they work, but because they signal conformity to prevailing norms.",
+        "question": "Organizations adopt similar structures primarily because:",
+        "options": [
+          "Those structures are demonstrably most efficient",
+          "Industry regulations mandate uniformity",
+          "Appearing legitimate matters more than actual performance",
+          "Managers systematically copy successful competitors"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "d10",
+        "type": "tfng",
+        "category": "IELTS",
+        "skill": "inference",
+        "passage": "Climate models project significant warming over the coming century under most emissions scenarios. While uncertainty exists regarding the precise magnitude of temperature increase, the direction of change is not in scientific dispute. The primary uncertainties concern climate sensitivity—how much warming results from a given increase in greenhouse gas concentrations—and future human emissions trajectories.",
+        "statement": "Scientists disagree about whether climate change is occurring.",
+        "question": "According to the passage, this statement is:",
+        "options": [
+          "True",
+          "False",
+          "Not Given"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "d11",
+        "type": "mcq",
+        "category": "IELTS",
+        "skill": "inference",
+        "passage": "The intervention group showed a 12% improvement in test scores compared to the control group (p < 0.05). Effect sizes were small to moderate (d = 0.35). While statistically significant, the practical significance of these gains for educational outcomes remains unclear, particularly given the resource-intensive nature of the intervention.",
+        "question": "The author's overall assessment of the intervention is:",
+        "options": [
+          "Strongly positive — clear evidence of effectiveness",
+          "Cautiously positive — works but cost-effectiveness uncertain",
+          "Neutral — insufficient evidence to judge",
+          "Negative — the intervention failed"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "d12",
+        "type": "mcq",
+        "category": "TOEFL",
+        "skill": "inference",
+        "passage": "Foucault's analysis reveals how disciplinary power operates not through overt coercion but through normalization—the production of subjects who internalize norms and regulate themselves accordingly. The prison serves as paradigm for modern institutions: schools, hospitals, and factories all employ similar techniques of observation, examination, and classification.",
+        "question": "According to this passage, modern power primarily functions by:",
+        "options": [
+          "Threatening punishment for rule violations",
+          "Making people monitor and regulate themselves",
+          "Establishing democratic governance institutions",
+          "Providing economic incentives for compliance"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  
+  "scoring": {
+    "unlocks": [
+      {"threshold": 5.8, "toefl": 115, "label": "Harvard, Cambridge, MIT, Stanford"},
+      {"threshold": 5.5, "toefl": 110, "label": "Scholarships (Chevening, DAAD, Fulbright)"},
+      {"threshold": 5.2, "toefl": 105, "label": "Top 50 Universities"},
+      {"threshold": 5.0, "toefl": 100, "label": "Top 100 Universities"},
+      {"threshold": 4.5, "toefl": 90, "label": "Top 200 Universities"},
+      {"threshold": 4.0, "toefl": 80, "label": "Top 300 Universities"}
+    ],
+    "programs": {
+      "sprint": {"name": "Sprint Program", "weeks": "8 weeks", "desc": "Fine-tuning for students close to target."},
+      "core": {"name": "Core Program", "weeks": "12 weeks", "desc": "Systematic work across all sections."},
+      "intensive": {"name": "Intensive Program", "weeks": "16+ weeks", "desc": "Complete transformation for significant gaps."}
+    },
+    "weaknesses": {
+      "vocabulary": {
+        "label": "Academic Vocabulary",
+        "pain": "'Significant' means statistically meaningful, not important. 'Critical' means analytical, not negative. 'Qualified' means limited, not expert. You're losing points on words you think you know."
+      },
+      "inference": {
+        "label": "Reading Between Lines",
+        "pain": "You read what's written. TOEFL tests what's implied. 40% of questions require inference from unstated information."
+      },
+      "grammar": {
+        "label": "Logical Connectors",
+        "pain": "'Nevertheless' vs 'however' vs 'that said' — these signal different logical relationships. You're treating them as interchangeable."
+      },
+      "register": {
+        "label": "Academic Hedging",
+        "pain": "'May suggest' ≠ 'demonstrates' ≠ 'proves'. You can't detect confidence levels in academic writing."
+      }
+    }
+  }
+}
